@@ -20,9 +20,14 @@ const IndexPage = () => {
         </h1>
         <br/>
         <a href="https://pennspark.org/"><button>&larr; Main Site</button></a>
+        <a style={{marginLeft: "20px"}} href="/directory"><button>All Members</button></a>
       </div>
 
       <div className="content-section">
+        <h2>Spring 2022</h2>
+      </div>
+      
+      <div id="profiles-section">
         <Profile name="Grace Jiang" role="Co-Director" img={GraceJiang} url="https://www.linkedin.com/in/gracj/"/>
         <Profile name="Christina Lu" role="Co-Director" img={ChristinaLu} url="https://www.linkedin.com/in/christinaxlu/" />
         <Profile name="Ethan Zhao" role="VP Internal" img={EthanZhao} url="https://exyzhao.github.io/" />

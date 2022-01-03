@@ -1,0 +1,23 @@
+.directory-blob {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.board-title {
+  color: #ffdb78;
+}
+
+.red-title {
+  color: #e7b6ae;
+}
+
+.blue-title {
+  color: #bccef5;
+}
+
+@media (max-width: 600px) {
+  .directory-blob {
+    width: 100%;
+  }
+}
