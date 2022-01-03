@@ -6,9 +6,9 @@ import "./style.css";
 class Profile extends React.Component {
   render() {
     return (
-      <a href="">
+      <a href={this.props.url} target="_blank" rel="noopener noreferrer" >
         <div className="profile">
-          <img src={this.props.img} />
+          <img className="profile-image" src={this.props.img} />
           <div className="profile-text">
             <h2 className="profile-name">{this.props.name}</h2>
             <p className="profile-role">{this.props.role}</p>
