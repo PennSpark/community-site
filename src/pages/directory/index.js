@@ -43,7 +43,7 @@ const DirectoryPage = () => {
           <h3 className="red-title">Red</h3>
           <p>
             <span className="bold">Project Leads</span>:<br />
-            Acelyn Choi, Anna Xia, Marcel Kida, Subin Kim
+            Acelyn Choi, Anna Xia, Janice Kim, Marcel Kida, Subin Kim
             <br />
             <br />
             <span className="bold">Developers</span>:<br />
@@ -52,7 +52,7 @@ const DirectoryPage = () => {
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            Chelsea Cheng, Isabel An, Joyce He, Julia Deng, Marcel Kida
+            Chelsea Cheng, Isabel An, Janice Kim, Joyce He, Julia Deng, Marcel Kida
           </p>
         </div>
         <div style={{ width: "4%", display: "inline-block" }} />
@@ -60,7 +60,7 @@ const DirectoryPage = () => {
         <div className="directory-blob">
           <h3 className="blue-title">Blue</h3>
           <p>
-            <span className="bold">Instructors</span>:<br />
+            <span className="bold">Design Instructors</span>:<br />
             Akshay Sharma, Christina Lu, Elyssa Chou, Grace Jiang, Janice Kim
             <br />
             <br />
