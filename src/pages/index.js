@@ -23,7 +23,7 @@ const IndexPage = () => {
         <a style={{marginLeft: "20px"}} href="/directory"><button>All Members</button></a>
       </div>
 
-      <div className="content-section">
+      <div className="content-section" style={{marginBottom: "10px"}}>
         <h2>Spring 2022</h2>
       </div>
       

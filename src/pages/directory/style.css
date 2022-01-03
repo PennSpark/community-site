@@ -4,6 +4,12 @@
   vertical-align: top;
 }
 
+.directory-blob-2 {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
 .board-title {
   color: #ffdb78;
 }
