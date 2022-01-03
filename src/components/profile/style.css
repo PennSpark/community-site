@@ -2,10 +2,11 @@
   display: inline-block;
   border: 2px solid white;
   color: black;
-  width: 22%;
+  width: 17%;
   margin-right: 1%;
   margin-left: 1%;
   margin-bottom: 30px;
+  vertical-align: top;
 }
 
 .profile-image {
@@ -24,11 +25,12 @@
 
 .profile-text {
   padding: 10px;
+  font-size: 0.9rem;
 }
 
 .profile-name {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .profile-role {
@@ -36,11 +38,11 @@
 }
 
 /* MOBILE VIEW */
-@media (max-width: 760px) {
+@media (max-width: 800px) {
   .profile {
-    width: 46%;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 }
 
