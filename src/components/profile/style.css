@@ -1,0 +1,21 @@
+.profile {
+  display: inline-block;
+  width: 210px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.profile-text {
+  padding: 10px;
+}
+
+.profile-name {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.profile-role {
+  font-size: 1rem;
+}
