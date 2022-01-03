@@ -28,8 +28,8 @@ const IndexPage = () => {
       </div>
       
       <div id="profiles-section">
-        <Profile name="Grace Jiang" role="Co-Director" img={GraceJiang} url="https://www.linkedin.com/in/gracj/"/>
         <Profile name="Christina Lu" role="Co-Director" img={ChristinaLu} url="https://www.linkedin.com/in/christinaxlu/" />
+        <Profile name="Grace Jiang" role="Co-Director" img={GraceJiang} url="https://gracejiang.me/"/>
         <Profile name="Ethan Zhao" role="VP Internal" img={EthanZhao} url="https://exyzhao.github.io/" />
         <Profile name="Janice Kim" role="VP External" img={JaniceKim} url="https://janicek1m.github.io/" />
         <Profile name="Andrew Jiang" role="VP Red" img={AndrewJiang} url="https://github.com/aJayz54" />

@@ -25,8 +25,7 @@ const DirectoryPage = () => {
         <div className="directory-blob">
           <h3 className="board-title">Board</h3>
           <p>
-            <span className="bold">Directors</span>: Olivia Zha &amp; Grace
-            Jiang
+            <span className="bold">Directors</span>: Grace Jiang, Olivia Zha
             <br />
             <span className="bold">VP Internal</span>: Jimmy Ren
             <br />
@@ -62,7 +61,7 @@ const DirectoryPage = () => {
           <h3 className="blue-title">Blue</h3>
           <p>
             <span className="bold">Instructors</span>:<br />
-            Janice Kim, Elyssa Chou, Akshay Sharma, Grace Jiang, Christina Lu
+            Akshay Sharma, Christina Lu, Elyssa Chou, Grace Jiang, Janice Kim
             <br />
             <br />
             <span className="bold">Developers</span>:<br />
@@ -83,8 +82,7 @@ const DirectoryPage = () => {
         <div className="directory-blob-2">
           <h3 className="board-title">Board</h3>
           <p>
-            <span className="bold">Directors</span>: Olivia Zha &amp; Grace
-            Jiang
+            <span className="bold">Directors</span>: Grace Jiang, Olivia Zha
             <br />
             <span className="bold">VP Internal</span>: Christina Lu
             <br />
