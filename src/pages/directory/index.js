@@ -60,7 +60,7 @@ const DirectoryPage = () => {
         <div className="directory-blob">
           <h3 className="blue-title">Blue</h3>
           <p>
-            <span className="bold">Design Instructors</span>:<br />
+            <span className="bold">Instructors</span>:<br />
             Akshay Sharma, Christina Lu, Elyssa Chou, Grace Jiang, Janice Kim
             <br />
             <br />
@@ -98,7 +98,7 @@ const DirectoryPage = () => {
         <div style={{ width: "4%", display: "inline-block" }} />
 
         <div className="directory-blob-2">
-          <h3 className="blue-title">Blue</h3>
+          <h3 className="blue-title">General Members</h3>
           <p>
             <span className="bold">Developers</span>:<br />
             to be updated!

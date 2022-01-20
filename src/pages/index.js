@@ -56,7 +56,7 @@ const IndexPage = () => {
         <Profile name="Ethan Zhao" role="VP Internal" img={EthanZhao} url="https://exyzhao.github.io/" />
         <Profile name="Grace Jiang" role="Co-Director" img={GraceJiang} url="https://gracejiang.me/" />
         <Profile name="James Ciardullo" role="Red Developer" img={JamesCiardullo} url="https://jciardullo.github.io/" />
-        <Profile name="Janice Kim" role="VP External" img={JaniceKim} url="https://jankim.me/" /> 
+        <Profile name="Janice Kim" role="VP External" img={JaniceKim} url="https://www.jankim.me/" /> 
         <Profile name="Jimmy Ren" role="Development Instructor" img={JimmyRen} url="https://www.linkedin.com/in/Jim-ren/" />
         <Profile name="Joyce He" role="Red Designer" img={JoyceHe} url="https://www.linkedin.com/in/joyce-he-1059a21b4" />
         <Profile name="Marcel Kida" role="Red Developer &amp; Designer" img={MarcelKida} url="https://marcelkida.com/" />

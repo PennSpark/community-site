@@ -5,11 +5,11 @@
   font-family: "HK Grotesk", "Inter", "Karla", sans-serif;
   margin: 0px;
   padding: 0px;
-  color: white;
+  color: black;
 }
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 .bold {
@@ -50,14 +50,14 @@ h3 {
 }
 
 .outline-text {
-  -webkit-text-stroke: 1.8px white;
+  -webkit-text-stroke: 1.8px black;
   color: rgb(0, 0, 0, 0);
 }
 
 button {
-  background-color: black;
-  color: white;
-  border: 2px solid white;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
   padding: 8px 30px 8px 30px;
   font-family: "HK Grotesk", "Inter", "Karla", sans-serif;
   font-size: 0.9rem;
@@ -68,7 +68,7 @@ button {
 button:hover {
   cursor: pointer;
 
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   transition: all 0.2s ease;
 }

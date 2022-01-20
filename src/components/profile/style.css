@@ -1,8 +1,7 @@
 .profile {
   display: inline-block;
-  border: 2px solid white;
-  color: black;
-  width: 17%;
+  /* border: 2px solid black; */
+  width: 18%;
   margin-right: 1%;
   margin-left: 1%;
   margin-bottom: 30px;
@@ -40,7 +39,7 @@
 /* MOBILE VIEW */
 @media (max-width: 800px) {
   .profile {
-    width: 30%;
+    width: 31%;
     margin-left: 1%;
     margin-right: 1%;
   }
