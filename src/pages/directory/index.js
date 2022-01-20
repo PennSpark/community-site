@@ -98,11 +98,17 @@ const DirectoryPage = () => {
           <h3 className="blue-title">General Members</h3>
           <p>
             <span className="bold">Developers</span>:<br />
-            to be updated!
+            Aarushi Singh, Acelyn Choi, Aditya Gupta, Ahmed Laban, Andrew Zhang, 
+            Arushi Srivastava, Aryan Nagariya, Brandon Adiele, Bryan Denq, Charles Cheng,
+            David Zhang, Egret Jin, Elaine Fan, Helena Zhang, Janna Goliff, Jimmy Ren, 
+            Leon Hertzberg, Logan Cho, Lindsay Smith, Linda Lu, Maggie Yu, 
+            Norman Chen, Subin Kim, Tinatin Kokoshvili, Vishaal Kumar, Wendy Wu,
+            Shelly Wu
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            to be updated!
+            Caroline Chin, Christy Qiu, Connie Lin, Isabel An, Julia Deng,
+            Juliana Lu, Karen Zheng, Kristine Lam, Vivienne Chen
           </p>
         </div>
       </div>
