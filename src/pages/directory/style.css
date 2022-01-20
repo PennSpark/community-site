@@ -11,15 +11,18 @@
 }
 
 .board-title {
-  color: #ffdb78;
+  /* color: #ffdb78; */
+  color: #7057D2;
 }
 
 .red-title {
-  color: #e7b6ae;
+  /* color: #e7b6ae; */
+  color: #CF6C5D;
 }
 
 .blue-title {
-  color: #bccef5;
+  /* color: #bccef5; */
+  color: #577ED2;
 }
 
 @media (max-width: 600px) {
