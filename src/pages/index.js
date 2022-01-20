@@ -3,6 +3,8 @@ import * as React from "react";
 import Layout from "../components/layout";
 import Profile from "../components/profile";
 
+import Navbar from "../components/navbar";
+
 import GraceJiang from "../images/headshots/grace-jiang.jpg"
 import ChristinaLu from "../images/headshots/christina-lu.jpg"
 import EthanZhao from "../images/headshots/ethan-zhao.jpg"
@@ -35,8 +37,7 @@ const IndexPage = () => {
           community at <span className="outline-text">spark</span>
         </h1>
         <br/>
-        <a href="https://pennspark.org/"><button>&larr; Main Site</button></a>
-        <a style={{marginLeft: "20px"}} href="/directory"><button>All Members</button></a>
+        <Navbar />
       </div>
 
       <div className="content-section" style={{marginBottom: "10px"}}>

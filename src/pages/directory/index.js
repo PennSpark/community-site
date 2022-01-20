@@ -1,6 +1,8 @@
 import * as React from "react";
 
 import Layout from "../../components/layout";
+import Navbar from "../../components/navbar"
+
 import "./style.css";
 
 const DirectoryPage = () => {
@@ -11,12 +13,7 @@ const DirectoryPage = () => {
           community at <span className="outline-text">spark</span>
         </h1>
         <br />
-        <a href="https://pennspark.org/">
-          <button>&larr; Main Site</button>
-        </a>
-        <a style={{ marginLeft: "20px" }} href="/">
-          <button>Current Members</button>
-        </a>
+        <Navbar />
       </div>
 
       <div className="content-section">
