@@ -2,7 +2,6 @@ import * as React from "react";
 
 import Layout from "../components/layout";
 import Profile from "../components/profile";
-
 import Navbar from "../components/navbar";
 
 import GraceJiang from "../images/headshots/grace-jiang.jpg"
@@ -26,7 +25,6 @@ import MarcelKida from "../images/headshots/marcel-kida.jpg"
 import MatthewDong from "../images/headshots/matthew-dong.jpg"
 import PaulLoh from "../images/headshots/paul-loh.jpg"
 import RainYan from "../images/headshots/rain-yan.jpg"
-import SeiyonLee from "../images/headshots/seiyon-lee.jpg"
 import SubinKim from "../images/headshots/subin-kim.jpg"
 
 const IndexPage = () => {
@@ -65,7 +63,6 @@ const IndexPage = () => {
         <Profile name="Olivia Zha" role="Design Instructor" img={OliviaZha} url="https://oliviazha.me/" />
         <Profile name="Paul Loh" role="Red Developer" img={PaulLoh} url="https://lohpaul9.github.io/" />
         <Profile name="Rain Yan" role="Blue Designer" img={RainYan} url="https://github.com/xcupsilon" />
-        <Profile name="Seiyon Lee" role="Red Designer" img={SeiyonLee} />
         <Profile name="Subin Kim" role="Red Developer" img={SubinKim} url="https://www.linkedin.com/in/subin-kim00/" />
         <Profile name="Yuhan Liu" role="VP Blue" img={YuhanLiu} url="https://yuhanliu-tech.github.io/" />
 

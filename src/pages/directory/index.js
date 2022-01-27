@@ -107,7 +107,7 @@ const DirectoryPage = () => {
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            Caroline Chin, Christy Qiu, Connie Lin, Isabel An, Julia Deng,
+            Caroline Chin, Christy Qiu, Connie Lin, Isabel An,
             Juliana Lu, Karen Zheng, Kristine Lam, Vivienne Chen
           </p>
         </div>

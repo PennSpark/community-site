@@ -1,0 +1,8 @@
+.hit-counters-visible img {
+    height: 20px;
+}
+
+.hit-counters-visible {
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+}
