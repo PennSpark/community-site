@@ -17,6 +17,64 @@ const DirectoryPage = () => {
       </div>
 
       <div className="content-section">
+        <h2>Spring 2022</h2>
+        <br />
+        <div className="directory-blob">
+          <h3 className="board-title">Board</h3>
+          <p>
+            <span className="bold">Directors</span>: Christina Lu, Grace Jiang
+            <br />
+            <span className="bold">VP Internal</span>: Ethan Zhao
+            <br />
+            <span className="bold">VP External</span>: Janice Kim
+            <br />
+            <span className="bold">VP Red</span>: Andrew Jiang
+            <br />
+            <span className="bold">VP Blue</span>: Yuhan Liu
+            <br />
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="red-title">Red</h3>
+          <p>
+          Still TBD – please check back later!<br/><br/>
+            {/* <span className="bold">Project Leads</span>:<br />
+            Acelyn Choi, Anna Xia, Janice Kim, Marcel Kida, Subin Kim
+            <br />
+            <br /> */}
+            <span className="bold">Developers</span>:<br />
+            Acelyn Choi, Anna Baringer, Anna Xia, Claire Zhang, James Ciardullo, Marcel Kida, Subin Kim
+            <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            Chelsea Cheng, Joyce He, Marcel Kida, Paul Loh
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="blue-title">Blue</h3>
+          <p>
+          Still TBD – please check back later!<br/><br/>
+            <span className="bold">Instructors</span>:<br />
+            Akshay Sharma, Jimmy Ren, Joyce He, Matthew Dong, Olivia Zha
+            <br />
+            <br />
+            <span className="bold">Developers</span>:<br />
+            Paul Loh
+            <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            Claire Zhang, Ethan Zhao, Rain Yan
+          </p>
+        </div>
+      </div>
+
+      <div className="content-section">
         <h2>Fall 2021</h2>
         <br />
         <div className="directory-blob">
@@ -34,7 +92,8 @@ const DirectoryPage = () => {
             <br />
           </p>
         </div>
-        <div style={{ width: "4%", display: "inline-block" }} />
+
+        <div className="spacer" />
 
         <div className="directory-blob">
           <h3 className="red-title">Red</h3>
@@ -49,10 +108,11 @@ const DirectoryPage = () => {
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            Chelsea Cheng, Isabel An, Janice Kim, Joyce He, Julia Deng, Marcel Kida
+            Chelsea Cheng, Isabel An, Janice Kim, Joyce He, Marcel Kida
           </p>
         </div>
-        <div style={{ width: "4%", display: "inline-block" }} />
+
+        <div className="spacer" />
 
         <div className="directory-blob">
           <h3 className="blue-title">Blue</h3>
@@ -76,7 +136,7 @@ const DirectoryPage = () => {
       <div className="content-section">
         <h2>Spring 2021</h2>
         <br />
-        <div className="directory-blob-2">
+        <div className="directory-blob">
           <h3 className="board-title">Board</h3>
           <p>
             <span className="bold">Directors</span>: Grace Jiang, Olivia Zha
@@ -92,7 +152,7 @@ const DirectoryPage = () => {
           </p>
         </div>
 
-        <div style={{ width: "4%", display: "inline-block" }} />
+        <div className="spacer" />
 
         <div className="directory-blob-2">
           <h3 className="blue-title">General Members</h3>
@@ -107,7 +167,7 @@ const DirectoryPage = () => {
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            Caroline Chin, Christy Qiu, Connie Lin, Isabel An,
+            Caroline Chin, Christy Qiu, Connie Lin, Isabel An, Julia Deng, 
             Juliana Lu, Karen Zheng, Kristine Lam, Vivienne Chen
           </p>
         </div>
