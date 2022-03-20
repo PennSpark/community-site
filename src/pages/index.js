@@ -12,8 +12,6 @@ import AndrewJiang from "../images/headshots/andrew-jiang.jpg"
 import YuhanLiu from "../images/headshots/yuhan-liu.jpg"
 import OliviaZha from "../images/headshots/olivia-zha.jpg"
 import AcelynChoi from "../images/headshots/acelyn-choi.jpg"
-import AkshaySharma from "../images/headshots/akshay-sharma.jpg"
-import AlexZheng from "../images/headshots/alex-zheng.jpg"
 import AnnaBaringer from "../images/headshots/anna-baringer.jpg"
 import AnnaXia from "../images/headshots/anna-xia.jpg"
 import ChelseaCheng from "../images/headshots/chelsea-cheng.jpg"
@@ -44,8 +42,6 @@ const IndexPage = () => {
       
       <div id="profiles-section">
         <Profile name="Acelyn Choi" role="Red Developer" img={AcelynChoi} url="http://linkedin.com/in/acelynchoi" />
-        <Profile name="Akshay Sharma" role="Development Instructor" img={AkshaySharma} url="https://akshaysharma.dev/" />
-        <Profile name="Alex Zheng" role="Red Developer" img={AlexZheng} url="https://www.linkedin.com/in/alexanderzheng1218/" />
         <Profile name="Andrew Jiang" role="VP Red" img={AndrewJiang} url="https://github.com/aJayz54" />
         <Profile name="Anna Baringer" role="Red Developer" img={AnnaBaringer} url="https://www.linkedin.com/in/anna-baringer-040bba9b/" />
         <Profile name="Anna Xia" role="Red Developer" img={AnnaXia} url="https://www.linkedin.com/in/anna-xia24/" />

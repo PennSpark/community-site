@@ -40,17 +40,16 @@ const DirectoryPage = () => {
         <div className="directory-blob">
           <h3 className="red-title">Red</h3>
           <p>
-          Still TBD – please check back later!<br/><br/>
-            {/* <span className="bold">Project Leads</span>:<br />
-            Acelyn Choi, Anna Xia, Janice Kim, Marcel Kida, Subin Kim
+            <span className="bold">Project Leads</span>:<br />
+            Anna Baringer, Chelsea Cheng, Marcel Kida, Subin Kim, Yuhan Liu
             <br />
-            <br /> */}
+            <br />
             <span className="bold">Developers</span>:<br />
-            Acelyn Choi, Anna Baringer, Anna Xia, Claire Zhang, James Ciardullo, Marcel Kida, Subin Kim
+            Acelyn Choi, Anna Xia, Arush Mehrotra, Claire Zhang, Eric Wang, Hyun Ki Cho, James Ciardullo, Paul Loh, Sumanth Kadiyala
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            Chelsea Cheng, Joyce He, Marcel Kida, Paul Loh
+            Chelsea Cheng, Claire Zhang, Eric Dai, Joyce He, Marcel Kida, Olivia Zha, Paul Loh
           </p>
         </div>
 
@@ -59,17 +58,16 @@ const DirectoryPage = () => {
         <div className="directory-blob">
           <h3 className="blue-title">Blue</h3>
           <p>
-          Still TBD – please check back later!<br/><br/>
             <span className="bold">Instructors</span>:<br />
-            Akshay Sharma, Jimmy Ren, Joyce He, Matthew Dong, Olivia Zha
+            Jimmy Ren, Joyce He, Matthew Dong, Olivia Zha
             <br />
             <br />
             <span className="bold">Developers</span>:<br />
-            Paul Loh
+            Alyssa Nie, Clyve Gassant, Dhatri Medarametla, Na Kyung Lee, Sanya Shetty, Yanjie Zhang, Zain Khan
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            Claire Zhang, Ethan Zhao, Rain Yan
+            Allison Zhang, Christiana Guan, Emily Guo, Mykaela Salvacion, Rain Yan
           </p>
         </div>
       </div>
