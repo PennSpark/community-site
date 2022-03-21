@@ -1,7 +1,5 @@
 import * as React from "react";
 
-import Layout from "../../components/layout";
-import Navbar from "../../components/navbar";
 import ExternalLink from "../../components/ExternalLink";
 
 import RulesPdf from "./Assassins_Rules.pdf";
@@ -15,17 +13,15 @@ const AssassinsPage = () => {
       <body>
         <div id="assassins-page">
           <h1>signal x spark assassins</h1>
-        
 
-        <p>This site is still a wip! Please check back EOD</p>
-        <p>
-          <ExternalLink href={RulesPdf}>Game Rules &rarr;</ExternalLink>
-        </p>
-        <p>
-          <a href="graveyard">Graveyard &rarr;</a>
-        </p>
+          <p>This site is still a wip! Please check back EOD</p>
+          <p>
+            <ExternalLink href={RulesPdf}>Game Rules &rarr;</ExternalLink>
+          </p>
+          <p>
+            <a href="graveyard">Graveyard &rarr;</a>
+          </p>
         </div>
-
       </body>
     </html>
   );

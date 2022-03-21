@@ -1,24 +1,26 @@
 import * as React from "react";
 
-import Layout from "../../components/layout";
-
 import "./style.css";
 
-const AssassinsPage = () => {
+const GraveyardPage = () => {
   return (
-    <Layout title="graveyard">
-      <div id="header-section" className="content-section">
-        <h1>graveyard</h1>
-      </div>
+    <html>
+      <head></head>
+      <body>
+        <div id="graveyard-page">
+          <h1>graveyard</h1>
+          <p>
+          <a href="/assassins">&larr; back</a>
+          <br/>
+          Number of deaths: <span style={{color: "red"}}>0</span>
+          <br/>
+          Number of alive: <span style={{color: "green"}}>36</span>
+          </p>
+        </div>
 
-      <div className="content-section" style={{ textAlign: "center" }}>
-          <h2><a href="/assassins">&larr; back home</a></h2>
-        <p>:0</p>
-      </div>
-
-      <div style={{ height: "30px" }} />
-    </Layout>
+      </body>
+    </html>
   );
 };
 
-export default AssassinsPage;
+export default GraveyardPage;

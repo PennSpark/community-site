@@ -1,32 +1,44 @@
 @font-face {
-    font-family: 'ComicSans';
-    src: local('ComicSans'), url(./comic-sans.ttf) format('truetype');
-    /* other formats include: 'woff2', 'truetype, 'opentype',
+  font-family: "ComicSans";
+  src: local("ComicSans"), url(./comic-sans.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
                               'embedded-opentype', and 'svg' */
-  }
+}
+
+#assassins-page,
+#graveyard-page {
+  text-align: center;
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+  min-height: 75vh;
+  font-family: "ComicSans", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #assassins-page {
-    text-align: center;
-    padding-top: 15vh;
-    padding-bottom: 10vh;
-    min-height: 75vh;
-    font-family: "ComicSans", sans-serif;
-    background-image: url("locust.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("locust.jpg");
 }
 
-#assassins-page h1, p {
-    font-family: "ComicSans", sans-serif;
-    background-color: rgb(255, 255, 255, 0.5);
+#assassins-page h1,
+p,
+#graveyard-page h1,
+p {
+  font-family: "ComicSans", sans-serif;
+  background-color: rgb(255, 255, 255, 0.5);
 }
 
-#assassins-page p {
-    text-align: center;
-    font-size: 2rem;
-    line-height: 200%;
+#assassins-page p,
+#graveyard-page p {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 200%;
 }
 
 #assassins-page a {
-    font-family: "ComicSans", sans-serif;
+  font-family: "ComicSans", sans-serif;
+}
+
+#graveyard-page {
+  background-image: url("graveyard.jpg");
 }
