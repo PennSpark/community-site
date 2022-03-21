@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'ComicSans';
+    src: local('ComicSans'), url(./comic-sans.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+#assassins-page {
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    min-height: 75vh;
+    font-family: "ComicSans", sans-serif;
+    background-image: url("locust.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#assassins-page h1, p {
+    font-family: "ComicSans", sans-serif;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+#assassins-page p {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 200%;
+}
+
+#assassins-page a {
+    font-family: "ComicSans", sans-serif;
+}

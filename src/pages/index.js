@@ -59,7 +59,7 @@ const IndexPage = () => {
       
       <div id="profiles-section">
         <Profile name="Acelyn Choi" role="Red Developer" img={AcelynChoi} url="http://linkedin.com/in/acelynchoi" />
-        <Profile name="Allison Zhang" role="Red Designer" img={AllisonZhang} url="" />
+        <Profile name="Allison Zhang" role="Blue Designer" img={AllisonZhang} url="" />
         <Profile name="Alyssa Nie" role="Blue Developer" img={AlyssaNie} url="https://a1yssan13.github.io/personal-web/" />
         <Profile name="Andrew Jiang" role="VP Red" img={AndrewJiang} url="https://github.com/aJayz54" />
         <Profile name="Anna Baringer" role="Red Developer" img={AnnaBaringer} url="https://www.linkedin.com/in/anna-baringer-040bba9b/" />
