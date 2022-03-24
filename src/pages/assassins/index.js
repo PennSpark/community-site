@@ -1,7 +1,5 @@
 import * as React from "react";
 
-import ExternalLink from "../../components/ExternalLink";
-
 import RulesPdf from "./Assassins_Rules.pdf";
 
 import "./style.css";
@@ -12,10 +10,10 @@ const AssassinsPage = () => {
       <head></head>
       <body>
         <div id="assassins-page">
-          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", fontSize: "2rem", padding: "24px" }}>
+          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", fontSize: "2rem", padding: "24px", border: "5px solid purple", margin: "20px"  }}>
             <h1><a href="https://thesign.al/" target="_blank">signal</a> x <a href="http://pennspark.org/" target="_blank">spark</a> assassins</h1><br/>
 
-            <p>SITE LAST UPDATED: March 24, 6:00pm EST</p><br/>
+            <p>SITE LAST UPDATED: March 24, 6:47pm EST</p><br/>
             <p>
               <a href={RulesPdf} target="_blank" style={{color: "#1d6cf5"}}>Game Rules &rarr;</a>
             </p>
@@ -24,8 +22,17 @@ const AssassinsPage = () => {
             </p><br/>
           </div>
 
-          <div style={{ height: "60px" }} />
-          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px" }}>
+          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid green", margin: "20px" }}>
+            <h2>ACTIVITY LOG</h2><br/>
+
+            <p style={{textAlign: "left", margin: "24px"}}>
+              <ol>
+                <li></li>
+              </ol>
+            </p>          
+          </div>
+
+          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid blue", margin: "20px"  }}>
             <h2>PATCH NOTES</h2><br/>
             <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
             <p style={{textAlign: "center"}}>3.1</p>
