@@ -8,9 +8,9 @@
 #assassins-page,
 #graveyard-page {
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 12vh;
   padding-bottom: 10vh;
-  min-height: 75vh;
+  min-height: 78vh;
   font-family: "ComicSans", sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,8 +30,7 @@ p {
 #assassins-page p,
 #graveyard-page p {
   text-align: center;
-  font-size: 2rem;
-  line-height: 200%;
+  line-height: 140%;
 }
 
 #assassins-page a {

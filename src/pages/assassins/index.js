@@ -12,20 +12,20 @@ const AssassinsPage = () => {
       <head></head>
       <body>
         <div id="assassins-page">
-          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)" }}>
-            <h1>signal x spark assassins</h1>
+          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", fontSize: "2rem", padding: "24px" }}>
+            <h1>signal x spark assassins</h1><br/>
 
-            <p>This site is still a wip! Please check back EOD</p>
+            <p>SITE LAST UPDATED: March 24, 6:00pm EST</p><br/>
             <p>
               <a href={RulesPdf} target="_blank" style={{color: "#1d6cf5"}}>Game Rules &rarr;</a>
-            </p>
+            </p><br/>
             <p>
               <a href="graveyard" style={{color: "#b82416"}}>Graveyard &rarr;</a>
-            </p>
+            </p><br/>
           </div>
 
           <div style={{ height: "60px" }} />
-          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)" }}>
+          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px" }}>
             <h2>PATCH NOTES</h2><br/>
             <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
             <p style={{textAlign: "center"}}>3.1</p>
