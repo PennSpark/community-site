@@ -32,7 +32,7 @@ class TombStone extends React.Component {
           <br/>
           3/21 - {this.props.death}
         </p><br/><br/>
-        <img src={this.props.src} style={{width: "60px", height: "80px"}}/>
+        <img src={this.props.src} style={{width: "90px", height: "80px"}}/>
       </div>
     </div>
   }
