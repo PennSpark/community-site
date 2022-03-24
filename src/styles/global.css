@@ -6,6 +6,10 @@
   padding: 0px;
 }
 
+a {
+  color: black;
+}
+
 body {
   font-family: "HK Grotesk", "Inter", "Karla", sans-serif;
   color: black;
