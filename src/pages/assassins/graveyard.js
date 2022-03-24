@@ -44,10 +44,11 @@ const GraveyardPage = () => {
       <head></head>
       <body>
         <div id="graveyard-page">
-          <h1>graveyard</h1>
-          <h2 style={{fontSize: "2rem"}}>
-            <a href="/assassins">&larr; back</a>
-          </h2><br/>
+        <h2 style={{fontSize: "2rem"}}>
+              <a href="/assassins">&larr; back</a>
+            </h2>
+            <h1>graveyard</h1>
+            <br/>
         <div>
         <TombStone src={YanjieImg} name="Yanjie" death="3/23"/>
         <TombStone src={AlyssaImg} name="Alyssa" death="3/23"/>
