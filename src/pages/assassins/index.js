@@ -12,6 +12,23 @@ const Revives = () => {
   return <span style={{color: "white", backgroundColor: "green", borderRadius: "10px", paddingLeft: "8px", paddingRight: "8px", fontFamily: "sans-serif", fontWeight: "500"}}>REVIVES</span>
 }
 
+const Alive = () => {
+  return <span style={{fontSize: "0.8rem", color: "white", backgroundColor: "green", borderRadius: "10px", paddingLeft: "8px", paddingRight: "8px", fontFamily: "sans-serif", fontWeight: "500", marginLeft: "4px"}}>ALIVE 😳</span>
+}
+
+const Dead = () => {
+  return <span style={{fontSize: "0.8rem", color: "white", backgroundColor: "red", borderRadius: "10px", paddingLeft: "8px", paddingRight: "8px", fontFamily: "sans-serif", fontWeight: "500", marginLeft: "4px"}}>DEAD 💀</span>
+}
+
+const Limbo = () => {
+  return <span style={{fontSize: "0.8rem", color: "white", backgroundColor: "brown", borderRadius: "10px", paddingLeft: "8px", paddingRight: "8px", fontFamily: "sans-serif", fontWeight: "500", marginLeft: "4px"}}>LIMBO 👻</span>
+}
+
+const Quarantine = () => {
+  return <span style={{fontSize: "0.8rem", color: "white", backgroundColor: "orange", borderRadius: "10px", paddingLeft: "8px", paddingRight: "8px", fontFamily: "sans-serif", fontWeight: "500", marginLeft: "4px"}}>QUARANTINE ☢️</span>
+}
+
+
 class ActivityItem extends React.Component {
   render() {
     return <li><strong style={{fontFamily: "sans-serif", textTransform: "uppercase", verticalAlign: "middle"}}>[<em>{this.props.date}</em>]</strong>: {this.props.children}</li>
@@ -35,6 +52,89 @@ const AssassinsPage = () => {
               <a href="graveyard" style={{color: "#b82416"}}>Graveyard &rarr;</a>
             </p><br/>
           </div>
+
+          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid blue", margin: "20px"  }}>
+            <h2>PATCH NOTES</h2><br/>
+            <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
+            <p style={{textAlign: "center"}}>3.1</p>
+              <br />
+              &bull; If a quarantine person's partner loses both lives, the quarantined person also dies.
+            </p>
+            <br/>
+            <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
+              <p style={{textAlign: "center"}}>3.0</p>
+              <br />&bull; for any group that has an individual in quarantine, the
+              other member of the group will have 2 lives until the quarantined
+              member is out. if the non quarantined member of the group loses a
+              life before the quarantined member comes out of quarantine and
+              does not/is unable to revive, then only the previously quarantined
+              member will be alive.<br/>
+              &bull; if you cannot physically make it to the
+              ben franklin bench, you must walk up to a stranger and say “i am a
+              peasant who is incapable of protecting myself from a rubber
+              balloon” and have your other team member record it
+            </p>
+            <br/>
+            <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
+            <p style={{textAlign: "center"}}>2.0</p>
+              <br />
+              &bull;the dead/limbo person must hold an L on their forehead in the picture for maximum clarity and humiliation
+            </p>
+          </div>
+
+
+
+          <div style={{backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid red", margin: "20px" }}>
+            <h2>STATUSES</h2>
+            <div className="graveyard-50" >
+            <p style={{ textAlign: "left" }}>
+              <ul>
+              <li>Acelyn Choi<Alive/></li>
+                <li>Adarsh Rao<Alive/></li>
+                <li>Alyssa Nie<Dead/></li>
+                <li>Andrew Jiang<Dead/></li>
+                <li>Anna Wang<Limbo/></li>
+                <li>Anna Xia<Alive/></li>
+                <li>Cathy Chen<Dead/></li>
+                <li>Chelsea Cheng<Alive/></li>
+                <li>Christian Sun<Alive/></li>
+                <li>Christiana Guan<Alive/></li>
+                <li>Cindy Xu<Alive/></li>
+                <li>Claire Wang<Alive/></li>
+                <li>Claire Zhang<Alive/></li>
+                <li>Eric Wang<Limbo/></li>
+                <li>Ethan Zhao<Alive/></li>
+                <li>Grace Jiang<Alive/></li>
+                <li>Isabelle Lin<Alive/></li>
+              </ul>
+            </p>
+          </div>
+          <div className="graveyard-50">
+            <p style={{ textAlign: "left" }}>
+              <ul>
+                <li>Jimmy Ren<Alive/></li>
+                <li>Kaitlyn Rentala<Dead/></li>
+                <li>Lauren Kafkaloff<Alive/></li>
+                <li>Leo Huang<Alive/></li>
+                <li>Marcel Kida<Alive/></li>
+                <li>Matthew Dong<Alive/><Quarantine/></li>
+                <li>Molly Xiao<Limbo/></li>
+                <li>Olivia Zha<Alive/></li>
+                <li>Paul Loh<Alive/></li>
+                <li>Rain Yan<Alive/><Quarantine/></li>
+                <li>Sophie Huang<Alive/></li>
+                <li>Sophie Shen<Limbo/></li>
+                <li>Subin Kim<Alive/></li>
+                <li>Sumanth Kadiyala<Alive/></li>
+                <li>William Zong<Alive/></li>
+                <li>Yanjie Zhang<Dead/></li>
+                <li>Yuhan Liu<Alive/></li>
+              </ul>
+            </p>
+          </div>
+         </div>
+
+
 
           <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid green", margin: "20px" }}>
             <h2>ACTIVITY LOG</h2><br/>
@@ -69,35 +169,6 @@ const AssassinsPage = () => {
 
               </ol>
             </p>          
-          </div>
-
-          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid blue", margin: "20px"  }}>
-            <h2>PATCH NOTES</h2><br/>
-            <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
-            <p style={{textAlign: "center"}}>3.1</p>
-              <br />
-              &bull; If a quarantine person's partner loses both lives, the quarantined person also dies.
-            </p>
-            <br/>
-            <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
-              <p style={{textAlign: "center"}}>3.0</p>
-              <br />&bull; for any group that has an individual in quarantine, the
-              other member of the group will have 2 lives until the quarantined
-              member is out. if the non quarantined member of the group loses a
-              life before the quarantined member comes out of quarantine and
-              does not/is unable to revive, then only the previously quarantined
-              member will be alive.<br/>
-              &bull; if you cannot physically make it to the
-              ben franklin bench, you must walk up to a stranger and say “i am a
-              peasant who is incapable of protecting myself from a rubber
-              balloon” and have your other team member record it
-            </p>
-            <br/>
-            <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
-            <p style={{textAlign: "center"}}>2.0</p>
-              <br />
-              &bull;the dead/limbo person must hold an L on their forehead in the picture for maximum clarity and humiliation
-            </p>
           </div>
         </div>
       </body>
