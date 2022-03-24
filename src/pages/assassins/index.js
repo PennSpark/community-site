@@ -13,12 +13,12 @@ const AssassinsPage = () => {
       <body>
         <div id="assassins-page">
           <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", fontSize: "2rem", padding: "24px" }}>
-            <h1>signal x spark assassins</h1><br/>
+            <h1><a href="https://thesign.al/" target="_blank">signal</a> x <a href="http://pennspark.org/" target="_blank">spark</a> assassins</h1><br/>
 
             <p>SITE LAST UPDATED: March 24, 6:00pm EST</p><br/>
             <p>
               <a href={RulesPdf} target="_blank" style={{color: "#1d6cf5"}}>Game Rules &rarr;</a>
-            </p><br/>
+            </p>
             <p>
               <a href="graveyard" style={{color: "#b82416"}}>Graveyard &rarr;</a>
             </p><br/>

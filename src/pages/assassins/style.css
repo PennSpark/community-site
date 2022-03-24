@@ -40,3 +40,26 @@ p {
 #graveyard-page {
   background-image: url("graveyard.jpg");
 }
+
+.assassins-tombstone {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  background-image: url(img/tombstone.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.graveyard-50 {
+  display: inline-block;
+  width: 40%;
+  padding: 5%;
+  padding-top: 14px;
+}
+
+@media (max-width: 600px) {
+  .graveyard-50 {
+    width: 90%;
+  }
+}

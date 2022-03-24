@@ -2,22 +2,41 @@ import * as React from "react";
 
 import "./style.css";
 
+import CathyImg from "./img/cathy.png"
+import KaitlynImg from "./img/kaitlyn.png"
+import YanjieImg from "./img/yanjie.png"
+import AlyssaImg from "./img/alyssa.png"
+import AndrewImg from "./img/andrew.png"
+
 const Alive = () => {
-  return <span style={{color: "green", fontWeight: "800"}}>&nbsp;ALIVE 😳</span>
+  return <span style={{color: "white", fontWeight: "800", backgroundColor: "green", borderRadius: "10px"}}>&nbsp;ALIVE 😳&nbsp;</span>
 }
 
 const Dead = () => {
-  return <span style={{color: "red", fontWeight: "800"}}>&nbsp;DEAD 💀</span>
+  return <span style={{color: "white", fontWeight: "800", backgroundColor: "red", borderRadius: "10px"}}>&nbsp;DEAD 💀&nbsp;</span>
 }
 
 const Limbo = () => {
-  return <span style={{color: "brown", fontWeight: "800"}}>&nbsp;LIMBO 👻</span>
+  return <span style={{color: "white", fontWeight: "800", backgroundColor: "brown", borderRadius: "10px"}}>&nbsp;LIMBO 👻&nbsp;</span>
 }
 
 const Quarantine = () => {
-  return <span style={{color: "orange", fontWeight: "800"}}>&nbsp;QUARANTINE ☢️</span>
+  return <span style={{color: "white", fontWeight: "800", backgroundColor: "orange", borderRadius: "10px"}}>&nbsp;QUARANTINE ☢️&nbsp;</span>
 }
 
+class TombStone extends React.Component {
+  render() {
+    return <div style={{display: "inline-block"}}>
+      <div className="assassins-tombstone" ><div style={{height: "8px"}}/>
+        <p>{this.props.name}
+          <br/>
+          3/21 - {this.props.death}
+        </p><br/><br/>
+        <img src={this.props.src} style={{width: "60px", height: "80px"}}/>
+      </div>
+    </div>
+  }
+}
 
 const GraveyardPage = () => {
   return (
@@ -29,18 +48,20 @@ const GraveyardPage = () => {
           <h2 style={{fontSize: "2rem"}}>
             <a href="/assassins">&larr; back</a>
           </h2><br/>
+        <div>
+        <TombStone src={YanjieImg} name="Yanjie" death="3/23"/>
+        <TombStone src={AlyssaImg} name="Alyssa" death="3/23"/>
+        <TombStone src={AndrewImg} name="Andrew" death="3/23"/>
+        <TombStone src={KaitlynImg} name="Kaitlyn" death="3/22"/>
+          <TombStone src={CathyImg} name="Cathy" death="3/22"/>
+        </div>
+        <br/>
          <div style={{backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px"}}>
             <h2>STATUSES</h2>
-            <div
-            style={{
-              display: "inline-block",
-              width: "40%",
-              padding: "5%",
-              paddingTop: "10px"
-            }}
-          >
+            <div className="graveyard-50" >
             <p style={{ textAlign: "left" }}>
               <ul>
+              <li>Acelyn Choi<Alive/></li>
                 <li>Adarsh Rao<Alive/></li>
                 <li>Alyssa Nie<Dead/></li>
                 <li>Andrew Jiang<Dead/></li>
@@ -50,30 +71,19 @@ const GraveyardPage = () => {
                 <li>Chelsea Cheng<Alive/></li>
                 <li>Christian Sun<Alive/></li>
                 <li>Christiana Guan<Alive/></li>
-                <li>Christina Lu<Alive/><Quarantine/></li>
                 <li>Cindy Xu<Alive/></li>
                 <li>Claire Wang<Alive/></li>
                 <li>Claire Zhang<Alive/></li>
-                <li>Emily Guo<Alive/><Quarantine/></li>
                 <li>Eric Wang<Limbo/></li>
                 <li>Ethan Zhao<Alive/></li>
                 <li>Grace Jiang<Alive/></li>
-                <li>Ian Zhang<Alive/></li>
-               
+                <li>Isabelle Lin<Alive/></li>
               </ul>
             </p>
           </div>
-          <div
-            style={{
-              display: "inline-block",
-              width: "40%",
-              padding: "5%",
-              paddingTop: "10px"
-            }}
-          >
+          <div className="graveyard-50">
             <p style={{ textAlign: "left" }}>
               <ul>
-              <li>Isabelle Lin<Alive/></li>
                 <li>Jimmy Ren<Alive/></li>
                 <li>Kaitlyn Rentala<Dead/></li>
                 <li>Lauren Kafkaloff<Alive/></li>

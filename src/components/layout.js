@@ -6,7 +6,6 @@ import FavIcon from "../images/favicon.png"
 
 import "../styles/global.css"
 
-
 class Layout extends React.Component {
   render() {
     return (
