@@ -38,9 +38,11 @@ const GraveyardPage = () => {
             </h2>
             <h1>graveyard</h1>
             <br/>
-          <div style={{backgroundColor: "rgb(255, 255, 255, 0.8"}}>
+          <div style={{backgroundColor: "rgb(255, 255, 255, 0.8", borderRadius: "15px", border: "5px solid grey"}}>
             <p style={{fontSize: "1.2rem"}}><em>"How people die remains in the memory of those who live on"</em> – Dame Cicely Saunders<br/>
-            <em>"Our dead are never dead to us, until we have forgotten them"</em> – George Eliot</p>
+            <em>"Our dead are never dead to us, until we have forgotten them"</em> – George Eliot<br/>
+            <em>"naur 😔😔🙏😩😩😩😿👻☠️☠️☠️"</em> – Spark Exec
+            </p>
           </div>
           <div style={{height: "50px"}}/>
         <div>
