@@ -24,7 +24,7 @@
 #assassins-page p,
 #graveyard-page p {
   font-family: "ComicSans", sans-serif;
-  font-size: 1rem;
+  font-size: 0.93rem;
 }
 
 #assassins-page p,
@@ -51,8 +51,8 @@
 
 .assassins-tombstone {
   height: 200px;
-  width: 175px;
-  margin: 4px;
+  width: 160px;
+  margin: 3px;
   display: inline-block;
   background-image: url(img/tombstone.png);
   background-size: contain;
@@ -98,8 +98,20 @@
   animation-iteration-count: infinite;
 }
 
+#assassins-body {
+  background-color: black;
+}
+
 @media (max-width: 720px) {
   .graveyard-50 {
     width: 90%;
+  }
+
+  #graveyard-page {
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8vh;
+    padding-bottom: 6vh;
   }
 }

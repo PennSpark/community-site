@@ -33,7 +33,9 @@ const Quarantine = () => {
 
 class ActivityItem extends React.Component {
   render() {
-    return <li><strong style={{fontFamily: "sans-serif", textTransform: "uppercase", verticalAlign: "middle"}}>[<em>{this.props.date}</em>]</strong>: {this.props.children}</li>
+    return <li><strong style={{fontFamily: "sans-serif", 
+    // textTransform: "uppercase", 
+    verticalAlign: "middle"}}>[<em>{this.props.date}</em>]</strong>: {this.props.children}</li>
   }
 }
 
@@ -41,14 +43,14 @@ const AssassinsPage = () => {
   return (
     <html>
       <head></head>
-      <body>
+      <body id="assassins-body">
         <div id="assassins-page">
           
           
           <div className="assassins-box" style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", fontSize: "1.2rem", padding: "24px", border: "5px solid purple" }}>
-            <h1><a href="http://pennspark.org/" target="_blank">spark</a> x <a href="https://thesign.al/" target="_blank">signal</a> assassins</h1><br/>
+            <h1><a href="http://pennspark.org/" target="_blank">spark</a> x <a href="https://thesign.al/" target="_blank">signal</a> assassins 🔪🔪</h1><br/>
 
-            <p style={{fontSize: "1rem", fontFamily: "sans-serif"}}>SITE LAST UPDATED: March 24, 08:29pm EST</p><br/>
+            <p style={{fontSize: "1rem", fontFamily: "sans-serif"}}>SITE LAST UPDATED: March 25, 2022 at 12:35am EST</p><br/>
             <p>
               <a href="graveyard" style={{textDecoration: "none"}}>
                 <div className="graveyard-link">
@@ -100,52 +102,52 @@ const AssassinsPage = () => {
             <div className="graveyard-50" >
             <p style={{ textAlign: "left" }}>
               <ul>
-              <li>Acelyn Choi<Alive/></li>
-                <li>Adarsh Rao<Alive/></li>
+              <li>Acelyn Choi<Alive/> ❤️❤️</li>
+                <li>Adarsh Rao<Alive/> ❤️</li>
                 <li>Alyssa Nie<Dead/></li>
                 <li>Andrew Jiang<Dead/></li>
-                <li>Anna Wang<Limbo/></li>
-                <li>Anna Xia<Alive/></li>
+                <li>Anna Wang<Dead/></li>
+                <li>Anna Xia<Alive/> ❤️❤️</li>
                 <li>Cathy Chen<Dead/></li>
-                <li>Chelsea Cheng<Alive/></li>
-                <li>Christian Sun<Alive/></li>
-                <li>Christiana Guan<Alive/></li>
-                <li>Cindy Xu<Alive/></li>
-                <li>Claire Wang<Alive/></li>
+                <li>Chelsea Cheng<Alive/> ❤️❤️</li>
+                <li>Christian Sun<Alive/> ❤️</li>
+                <li>Christiana Guan<Alive/> ❤️</li>
+                <li>Cindy Xu<Alive/> ❤️❤️</li>
+                <li>Claire Wang<Alive/> ❤️</li>
               </ul>
             </p>
           </div>
           <div className="graveyard-50">
             <p style={{ textAlign: "left" }}>
               <ul>
-              <li>Claire Zhang<Alive/></li>
-                <li>Eric Wang<Limbo/></li>
-                <li>Ethan Zhao<Alive/></li>
-                <li>Grace Jiang<Alive/></li>
-                <li>Isabelle Lin<Alive/></li>
-                <li>Jimmy Ren<Alive/></li>
+              <li>Claire Zhang<Alive/> ❤️❤️</li>
+                <li>Eric Wang<Alive/> ❤️</li>
+                <li>Ethan Zhao<Dead/></li>
+                <li>Grace Jiang<Alive/> ❤️❤️</li>
+                <li>Isabelle Lin<Alive/> ❤️</li>
+                <li>Jimmy Ren<Alive/> ❤️❤️</li>
                 <li>Kaitlyn Rentala<Dead/></li>
-                <li>Lauren Kafkaloff<Alive/></li>
-                <li>Leo Huang<Alive/></li>
-                <li>Marcel Kida<Alive/></li>
-                <li>Matthew Dong<Alive/><Quarantine/></li>
-                <li>Molly Xiao<Limbo/></li>
+                <li>Lauren Kafkaloff<Alive/> ❤️❤️</li>
+                <li>Leo Huang<Alive/> ❤️❤️</li>
+                <li>Marcel Kida<Alive/> ❤️❤️</li>
+                <li>Matthew Dong<Alive/><Quarantine/> ❤️</li>
+                <li>Molly Xiao<Dead/></li>
               </ul>
             </p>
           </div>
           <div className="graveyard-50">
             <p style={{ textAlign: "left" }}>
               <ul>
-                <li>Olivia Zha<Alive/></li>
-                <li>Paul Loh<Alive/></li>
-                <li>Rain Yan<Alive/><Quarantine/></li>
-                <li>Sophie Huang<Alive/></li>
-                <li>Sophie Shen<Limbo/></li>
-                <li>Subin Kim<Alive/></li>
-                <li>Sumanth Kadiyala<Alive/></li>
-                <li>William Zong<Alive/></li>
+                <li>Olivia Zha<Alive/> ❤️❤️</li>
+                <li>Paul Loh<Alive/> ❤️❤️</li>
+                <li>Rain Yan<Dead/></li>
+                <li>Sophie Huang<Alive/> ❤️❤️</li>
+                <li>Sophie Shen<Dead/></li>
+                <li>Subin Kim<Alive/> ❤️❤️</li>
+                <li>Sumanth Kadiyala<Alive/> ❤️❤️</li>
+                <li>William Zong<Alive/> ❤️❤️</li>
                 <li>Yanjie Zhang<Dead/></li>
-                <li>Yuhan Liu<Alive/></li>
+                <li>Yuhan Liu<Alive/> ❤️</li>
               </ul>
             </p>
           </div>
@@ -158,6 +160,9 @@ const AssassinsPage = () => {
 
             <p style={{textAlign: "left", margin: "24px", fontSize: "0.8rem"}}>
               <ol>
+              <ActivityItem date="03/24 at 11:59 PM">Eric W. <Kills/> Ethan Z.</ActivityItem>
+              <ActivityItem date="03/24 at 11:43 PM">Eric W. <Revives/> Eric W.</ActivityItem>
+              <ActivityItem date="03/24 at 10:16 PM">Rain Y. <Kills/> Rain Y. (Quarantine Patch)</ActivityItem>
               <ActivityItem date="03/24 at 05:08 PM">Cindy X. <Kills/> Eric W.</ActivityItem>
               <ActivityItem date="03/24 at 12:11 AM">Marcel K. <Kills/> Yanjie Z.</ActivityItem>
               <ActivityItem date="03/23 at 11:41 PM">William Z. <Revives/> Christi G.</ActivityItem>
