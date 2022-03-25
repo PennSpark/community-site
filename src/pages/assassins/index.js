@@ -47,7 +47,7 @@ const AssassinsPage = () => {
         <div id="assassins-page">
           
           
-          <div className="assassins-box" style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", fontSize: "1.2rem", padding: "24px", border: "5px solid purple" }}>
+          <div className="assassins-box" style={{ borderColor: "purple" }}>
             <h1><a href="http://pennspark.org/" target="_blank">spark</a> x <a href="https://thesign.al/" target="_blank">signal</a> assassins 🔪🔪</h1><br/>
 
             <p style={{fontSize: "1rem", fontFamily: "sans-serif"}}>SITE LAST UPDATED: March 25, 2022 at 12:35am EST</p><br/>
@@ -61,7 +61,7 @@ const AssassinsPage = () => {
             </p><br/>
           </div>
 
-          <div className="assassins-box" style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid blue" }}>
+          <div className="assassins-box" style={{ borderColor: "blue" }}>
             <h2>GAME RULES</h2><br/>
             <p>
               <a href={RulesPdf} target="_blank" style={{color: "#1d6cf5", fontSize: "2rem"}}>📜 Game Rules &rarr;</a>
@@ -97,7 +97,7 @@ const AssassinsPage = () => {
 
 
 
-          <div className="assassins-box" style={{backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid red" }}>
+          <div className="assassins-box" style={{ borderColor: "red" }}>
             <h2>STATUSES</h2>
             <div className="graveyard-50" >
             <p style={{ textAlign: "left" }}>
@@ -155,7 +155,7 @@ const AssassinsPage = () => {
 
 
           {/* START ACTIVITY LOG */}
-          <div className="assassins-box" style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid green" }}>
+          <div className="assassins-box" style={{ borderColor: "green" }}>
             <h2>ACTIVITY LOG</h2><br/>
 
             <p style={{textAlign: "left", margin: "24px", fontSize: "0.8rem"}}>
