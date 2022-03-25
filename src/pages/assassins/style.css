@@ -98,7 +98,7 @@
   animation-iteration-count: infinite;
 }
 
-#assassins-body {
+#assassins-body, #graveyard-body {
   background-color: black;
 }
 

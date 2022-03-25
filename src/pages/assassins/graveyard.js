@@ -31,19 +31,24 @@ const GraveyardPage = () => {
   return (
     <html>
       <head></head>
-      <body>
+      <body id="graveyard-body">
         <div id="graveyard-page">
         <h2 style={{fontSize: "2rem"}}>
               <a href="/assassins">&larr; back</a>
             </h2>
             <h1>graveyard</h1>
             <br/>
+          <div style={{backgroundColor: "rgb(255, 255, 255, 0.8"}}>
+            <p style={{fontSize: "1.2rem"}}><em>"How people die remains in the memory of those who live on"</em> – Dame Cicely Saunders<br/>
+            <em>"Our dead are never dead to us, until we have forgotten them"</em> – George Eliot</p>
+          </div>
+          <div style={{height: "50px"}}/>
         <div>
         <TombStone src={EthanImg} name="Ethan" death="3/24"/>
         <TombStone src={RainImg} name="Rain" death="3/24"/>
         <TombStone src={MollyImg} name="Molly" death="3/23"/>
         <TombStone src={AnnaImg} name="Anna" death="3/23"/>
-        <TombStone src={SophieImg} name="Yanjie" death="3/23"/>
+        <TombStone src={SophieImg} name="Sophie" death="3/23"/>
         <TombStone src={YanjieImg} name="Yanjie" death="3/23"/>
         <TombStone src={AlyssaImg} name="Alyssa" death="3/23"/>
         <TombStone src={AndrewImg} name="Andrew" death="3/23"/>
