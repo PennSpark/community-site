@@ -8,22 +8,6 @@ import YanjieImg from "./img/yanjie.png"
 import AlyssaImg from "./img/alyssa.png"
 import AndrewImg from "./img/andrew.png"
 
-const Alive = () => {
-  return <span style={{color: "white", fontWeight: "800", backgroundColor: "green", borderRadius: "10px"}}>&nbsp;ALIVE 😳&nbsp;</span>
-}
-
-const Dead = () => {
-  return <span style={{color: "white", fontWeight: "800", backgroundColor: "red", borderRadius: "10px"}}>&nbsp;DEAD 💀&nbsp;</span>
-}
-
-const Limbo = () => {
-  return <span style={{color: "white", fontWeight: "800", backgroundColor: "brown", borderRadius: "10px"}}>&nbsp;LIMBO 👻&nbsp;</span>
-}
-
-const Quarantine = () => {
-  return <span style={{color: "white", fontWeight: "800", backgroundColor: "orange", borderRadius: "10px"}}>&nbsp;QUARANTINE ☢️&nbsp;</span>
-}
-
 class TombStone extends React.Component {
   render() {
     return <div style={{display: "inline-block"}}>

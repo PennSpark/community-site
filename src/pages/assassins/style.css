@@ -8,24 +8,23 @@
 #assassins-page,
 #graveyard-page {
   text-align: center;
+  padding: 20px;
   padding-top: 8vh;
-  padding-bottom: 10vh;
-  min-height: 82vh;
+  padding-bottom: 6vh;
+  min-height: 86vh;
   font-family: "ComicSans", sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#assassins-page {
-  background-image: url("locust.jpg");
-  background-position: center center;
+#assassins-page h1, #graveyard-page h1 {
+  font-size: 3rem;
 }
 
-#assassins-page h1,
 #assassins-page p,
-#graveyard-page h1,
 #graveyard-page p {
   font-family: "ComicSans", sans-serif;
+  font-size: 1rem;
 }
 
 #assassins-page p,
@@ -34,18 +33,26 @@
   line-height: 140%;
 }
 
-#assassins-page a {
+#assassins-page a, #graveyard-page a {
   font-family: "ComicSans", sans-serif;
+}
+
+#assassins-page {
+  background-image: url("locust.jpg");
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 #graveyard-page {
   background-image: url("graveyard.jpg");
   background-position: center center;
+  background-attachment: fixed;
 }
 
 .assassins-tombstone {
   height: 200px;
-  width: 200px;
+  width: 175px;
+  margin: 4px;
   display: inline-block;
   background-image: url(img/tombstone.png);
   background-size: contain;
@@ -55,12 +62,43 @@
 
 .graveyard-50 {
   display: inline-block;
-  width: 40%;
-  padding: 5%;
+  width: 25%;
+  padding: 4%;
   padding-top: 14px;
+  vertical-align: top;
 }
 
-@media (max-width: 600px) {
+.graveyard-link:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+.assassins-box {
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 900px;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#assassins-img {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@media (max-width: 720px) {
   .graveyard-50 {
     width: 90%;
   }

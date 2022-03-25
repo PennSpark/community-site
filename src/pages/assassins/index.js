@@ -1,6 +1,8 @@
 import * as React from "react";
 
 import RulesPdf from "./Assassins_Rules.pdf";
+import AssassinImg from "./img/assassin.png"
+import AssassinThreatImg from "./img/assassin-threat.png"
 
 import "./style.css";
 
@@ -41,27 +43,36 @@ const AssassinsPage = () => {
       <head></head>
       <body>
         <div id="assassins-page">
-          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", fontSize: "2rem", padding: "24px", border: "5px solid purple", margin: "20px"  }}>
+          
+          
+          <div className="assassins-box" style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", fontSize: "1.2rem", padding: "24px", border: "5px solid purple" }}>
             <h1><a href="http://pennspark.org/" target="_blank">spark</a> x <a href="https://thesign.al/" target="_blank">signal</a> assassins</h1><br/>
 
-            <p>SITE LAST UPDATED: March 24, 6:47pm EST</p><br/>
+            <p style={{fontSize: "1rem", fontFamily: "sans-serif"}}>SITE LAST UPDATED: March 24, 08:29pm EST</p><br/>
             <p>
-              <a href={RulesPdf} target="_blank" style={{color: "#1d6cf5"}}>Game Rules &rarr;</a>
-            </p>
-            <p>
-              <a href="graveyard" style={{color: "#b82416"}}>Graveyard &rarr;</a>
+              <a href="graveyard" style={{textDecoration: "none"}}>
+                <div className="graveyard-link">
+                <span style={{color: "#b82416", fontSize: "2.3rem", textDecoration: "underline"}}>🪦 Graveyard &rarr;</span><br/>
+                  pay respects to the dead...
+                </div>
+              </a>
             </p><br/>
           </div>
 
-          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid blue", margin: "20px"  }}>
+          <div className="assassins-box" style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid blue" }}>
+            <h2>GAME RULES</h2><br/>
+            <p>
+              <a href={RulesPdf} target="_blank" style={{color: "#1d6cf5", fontSize: "2rem"}}>📜 Game Rules &rarr;</a>
+            </p>
+            <br/><br/>
             <h2>PATCH NOTES</h2><br/>
-            <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
+            <p style={{ lineHeight: "140%", textAlign: "left" }}>
             <p style={{textAlign: "center"}}>3.1</p>
               <br />
               &bull; If a quarantine person's partner loses both lives, the quarantined person also dies.
             </p>
             <br/>
-            <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
+            <p style={{ lineHeight: "140%", textAlign: "left" }}>
               <p style={{textAlign: "center"}}>3.0</p>
               <br />&bull; for any group that has an individual in quarantine, the
               other member of the group will have 2 lives until the quarantined
@@ -75,7 +86,7 @@ const AssassinsPage = () => {
               balloon” and have your other team member record it
             </p>
             <br/>
-            <p style={{ fontSize: "1.1rem", lineHeight: "140%", textAlign: "left" }}>
+            <p style={{ lineHeight: "140%", textAlign: "left" }}>
             <p style={{textAlign: "center"}}>2.0</p>
               <br />
               &bull;the dead/limbo person must hold an L on their forehead in the picture for maximum clarity and humiliation
@@ -84,7 +95,7 @@ const AssassinsPage = () => {
 
 
 
-          <div style={{backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid red", margin: "20px" }}>
+          <div className="assassins-box" style={{backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid red" }}>
             <h2>STATUSES</h2>
             <div className="graveyard-50" >
             <p style={{ textAlign: "left" }}>
@@ -101,17 +112,17 @@ const AssassinsPage = () => {
                 <li>Christiana Guan<Alive/></li>
                 <li>Cindy Xu<Alive/></li>
                 <li>Claire Wang<Alive/></li>
-                <li>Claire Zhang<Alive/></li>
-                <li>Eric Wang<Limbo/></li>
-                <li>Ethan Zhao<Alive/></li>
-                <li>Grace Jiang<Alive/></li>
-                <li>Isabelle Lin<Alive/></li>
               </ul>
             </p>
           </div>
           <div className="graveyard-50">
             <p style={{ textAlign: "left" }}>
               <ul>
+              <li>Claire Zhang<Alive/></li>
+                <li>Eric Wang<Limbo/></li>
+                <li>Ethan Zhao<Alive/></li>
+                <li>Grace Jiang<Alive/></li>
+                <li>Isabelle Lin<Alive/></li>
                 <li>Jimmy Ren<Alive/></li>
                 <li>Kaitlyn Rentala<Dead/></li>
                 <li>Lauren Kafkaloff<Alive/></li>
@@ -119,6 +130,12 @@ const AssassinsPage = () => {
                 <li>Marcel Kida<Alive/></li>
                 <li>Matthew Dong<Alive/><Quarantine/></li>
                 <li>Molly Xiao<Limbo/></li>
+              </ul>
+            </p>
+          </div>
+          <div className="graveyard-50">
+            <p style={{ textAlign: "left" }}>
+              <ul>
                 <li>Olivia Zha<Alive/></li>
                 <li>Paul Loh<Alive/></li>
                 <li>Rain Yan<Alive/><Quarantine/></li>
@@ -135,8 +152,8 @@ const AssassinsPage = () => {
          </div>
 
 
-
-          <div style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid green", margin: "20px" }}>
+          {/* START ACTIVITY LOG */}
+          <div className="assassins-box" style={{ backgroundColor: "rgb(255, 255, 255, 0.8)", padding: "24px", border: "5px solid green" }}>
             <h2>ACTIVITY LOG</h2><br/>
 
             <p style={{textAlign: "left", margin: "24px", fontSize: "0.8rem"}}>
@@ -169,6 +186,12 @@ const AssassinsPage = () => {
 
               </ol>
             </p>          
+          </div>
+          {/* END ACTIVITY LOG */}
+
+          <div style={{textAlign: "center", marginTop: "70px"}}>
+            <img id="assassins-img" src={AssassinImg} style={{width: "80%", maxWidth: "180px"}}/><br/>
+            {/* <img src={AssassinThreatImg} style={{width: "90%", maxWidth: "220px"}}/> */}
           </div>
         </div>
       </body>
