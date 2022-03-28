@@ -2,7 +2,8 @@ import * as React from "react";
 
 import RulesPdf from "./Assassins_Rules.pdf";
 import AssassinImg from "./img/assassin.png"
-import AssassinThreatImg from "./img/assassin-threat.png"
+import WilliamImg from "./img/williamz.png"
+import ChristiImg from "./img/christig.png"
 
 import "./style.css";
 
@@ -50,7 +51,7 @@ const AssassinsPage = () => {
           <div className="assassins-box" style={{ borderColor: "purple" }}>
             <h1><a href="http://pennspark.org/" target="_blank">spark</a> x <a href="https://thesign.al/" target="_blank">signal</a> assassins 🔪🔪</h1><br/>
 
-            <p style={{fontSize: "1rem", fontFamily: "sans-serif"}}>SITE LAST UPDATED: March 25, 2022 at 12:35am EST</p><br/>
+            <p style={{fontSize: "1rem", fontFamily: "sans-serif"}}>SITE LAST UPDATED: March 28, 2022 at 02:46pm EST</p><br/>
             <p>
               <a href="graveyard" style={{textDecoration: "none"}}>
                 <div className="graveyard-link">
@@ -61,6 +62,18 @@ const AssassinsPage = () => {
             </p><br/>
           </div>
 
+          <div className="assassins-box" style={{ borderColor: "teal" }}>
+          <h2>CONGRATS TO THE WINNERS!</h2><br/>
+          <p style={{fontSize: "2rem"}}>
+            William Z. and Christiana G.
+          </p>
+          <img src={WilliamImg} style={{width: "200px", height: "200px", display: "inline-block", margin: "8px", border: "5px solid gold"}}/>
+          <img src={ChristiImg} style={{width: "200px", height: "200px", display: "inline-block", margin: "8px", border: "5px solid gold"}}/>
+          <p style={{fontSize: "1.5rem"}}>
+            for winning $5 ea
+          </p>
+          </div>
+         
           <div className="assassins-box" style={{ borderColor: "blue" }}>
             <h2>GAME RULES</h2><br/>
             <p>
@@ -68,6 +81,12 @@ const AssassinsPage = () => {
             </p>
             <br/><br/>
             <h2>PATCH NOTES</h2><br/>
+            <p style={{ lineHeight: "140%", textAlign: "left" }}>
+            <p style={{textAlign: "center"}}>4.0</p>
+              <br />
+              &bull; as stated before, there’s no more immunity (socks) or revivals!<br/>
+              &bull; there are no more assignments for teams. each team assignment can now assassinate any team
+            </p><br/>
             <p style={{ lineHeight: "140%", textAlign: "left" }}>
             <p style={{textAlign: "center"}}>3.1</p>
               <br />
@@ -103,11 +122,11 @@ const AssassinsPage = () => {
             <p style={{ textAlign: "left" }}>
               <ul>
               <li>Acelyn Choi<Alive/> ❤️❤️</li>
-                <li>Adarsh Rao<Alive/> ❤️</li>
+                <li>Adarsh Rao<Dead/></li>
                 <li>Alyssa Nie<Dead/></li>
                 <li>Andrew Jiang<Dead/></li>
                 <li>Anna Wang<Dead/></li>
-                <li>Anna Xia<Alive/> ❤️❤️</li>
+                <li>Anna Xia<Dead/></li>
                 <li>Cathy Chen<Dead/></li>
                 <li>Chelsea Cheng<Alive/> ❤️❤️</li>
                 <li>Christian Sun<Alive/> ❤️</li>
@@ -123,14 +142,14 @@ const AssassinsPage = () => {
               <li>Claire Zhang<Alive/> ❤️❤️</li>
                 <li>Eric Wang<Alive/> ❤️</li>
                 <li>Ethan Zhao<Dead/></li>
-                <li>Grace Jiang<Alive/> ❤️❤️</li>
+                <li>Grace Jiang<Dead/></li>
                 <li>Isabelle Lin<Alive/> ❤️</li>
                 <li>Jimmy Ren<Alive/> ❤️❤️</li>
                 <li>Kaitlyn Rentala<Dead/></li>
                 <li>Lauren Kafkaloff<Alive/> ❤️❤️</li>
-                <li>Leo Huang<Alive/> ❤️❤️</li>
+                <li>Leo Huang<Dead/></li>
                 <li>Marcel Kida<Alive/> ❤️❤️</li>
-                <li>Matthew Dong<Alive/><Quarantine/> ❤️</li>
+                <li>Matthew Dong<Alive/> ❤️</li>
                 <li>Molly Xiao<Dead/></li>
               </ul>
             </p>
@@ -138,10 +157,10 @@ const AssassinsPage = () => {
           <div className="graveyard-50">
             <p style={{ textAlign: "left" }}>
               <ul>
-                <li>Olivia Zha<Alive/> ❤️❤️</li>
+                <li>Olivia Zha<Dead/></li>
                 <li>Paul Loh<Alive/> ❤️❤️</li>
                 <li>Rain Yan<Dead/></li>
-                <li>Sophie Huang<Alive/> ❤️❤️</li>
+                <li>Sophie Huang<Dead/></li>
                 <li>Sophie Shen<Dead/></li>
                 <li>Subin Kim<Alive/> ❤️❤️</li>
                 <li>Sumanth Kadiyala<Alive/> ❤️❤️</li>
@@ -160,6 +179,14 @@ const AssassinsPage = () => {
 
             <p style={{textAlign: "left", margin: "24px", fontSize: "0.8rem"}}>
               <ol>
+              <ActivityItem date="03/27 at 09:09 PM">William Z. <Kills/> Sophie H.</ActivityItem>
+              <ActivityItem date="03/27 at 03:43 PM">William Z. <Kills/> Anna X.</ActivityItem>
+              <ActivityItem date="03/26 at 12:00 PM">Grace J. <Kills/> Grace J.</ActivityItem>
+              <ActivityItem date="03/26 at 09:58 AM">William Z. <Kills/> Adarsh R.</ActivityItem>
+              <ActivityItem date="03/25 at 11:51 PM">Isabelle L. <Revives/> Sophie H.</ActivityItem>
+              <ActivityItem date="03/25 at 10:29 PM">Eric W. <Kills/> Olivia Z.</ActivityItem>
+              <ActivityItem date="03/25 at 05:17 PM">Eric W. <Kills/> Leo H.</ActivityItem>
+              <ActivityItem date="03/25 at 01:28 PM">Grace J. <Kills/> Sophie H.</ActivityItem>
               <ActivityItem date="03/24 at 11:59 PM">Eric W. <Kills/> Ethan Z.</ActivityItem>
               <ActivityItem date="03/24 at 11:43 PM">Eric W. <Revives/> Eric W.</ActivityItem>
               <ActivityItem date="03/24 at 10:16 PM">Rain Y. <Kills/> Rain Y. (Quarantine Patch)</ActivityItem>
@@ -196,7 +223,6 @@ const AssassinsPage = () => {
 
           <div style={{textAlign: "center", marginTop: "70px"}}>
             <img id="assassins-img" src={AssassinImg} style={{width: "80%", maxWidth: "180px"}}/><br/>
-            {/* <img src={AssassinThreatImg} style={{width: "90%", maxWidth: "220px"}}/> */}
           </div>
         </div>
       </body>

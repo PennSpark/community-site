@@ -12,6 +12,12 @@ import AnnaImg from "./img/anna.png"
 import MollyImg from "./img/molly.png"
 import RainImg from "./img/rain.png"
 import EthanImg from "./img/ethan.png"
+import LeoImg from "./img/leo.png"
+import OliviaImg from "./img/olivia.png"
+import GracImg from "./img/grac.png"
+import AdarshImg from "./img/adarsh.png"
+import AnnaXiaImg from "./img/annaxia.png"
+import SophieHuangImg from "./img/sophiehuang.png"
 
 class TombStone extends React.Component {
   render() {
@@ -46,6 +52,12 @@ const GraveyardPage = () => {
           </div>
           <div style={{height: "50px"}}/>
         <div>
+        <TombStone src={SophieHuangImg} name="Sophie" death="3/27"/>
+        <TombStone src={AnnaXiaImg} name="Anna" death="3/27"/>
+        <TombStone src={AdarshImg} name="Adarsh" death="3/26"/>
+        <TombStone src={GracImg} name="Grace" death="3/26"/>
+        <TombStone src={OliviaImg} name="Olivia" death="3/25"/>
+        <TombStone src={LeoImg} name="Leo" death="3/25"/>
         <TombStone src={EthanImg} name="Ethan" death="3/24"/>
         <TombStone src={RainImg} name="Rain" death="3/24"/>
         <TombStone src={MollyImg} name="Molly" death="3/23"/>
