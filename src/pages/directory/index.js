@@ -17,6 +17,26 @@ const DirectoryPage = () => {
       </div>
 
       <div className="content-section">
+        <h2>Fall 2022</h2>
+        <br />
+        <div className="directory-blob">
+          <h3 className="board-title">Board</h3>
+          <p>
+            <span className="bold">Directors</span>: Andrew Jiang, Jimmy Ren
+            <br />
+            <span className="bold">VP Internal</span>: Ethan Zhao
+            <br />
+            <span className="bold">VP External</span>: Janice Kim
+            <br />
+            <span className="bold">VP Red</span>: Subin Kim
+            <br />
+            <span className="bold">VP Blue</span>: Na Kyung Lee
+            <br />
+          </p>
+        </div>
+      </div>
+
+      <div className="content-section">
         <h2>Spring 2022</h2>
         <br />
         <div className="directory-blob">
@@ -156,22 +176,22 @@ const DirectoryPage = () => {
           <h3 className="blue-title">General Members</h3>
           <p>
             <span className="bold">Developers</span>:<br />
-            Aarushi Singh, Acelyn Choi, Aditya Gupta, Ahmed Laban, Andrew Zhang, 
+            Aarushi Singh, Acelyn Choi, Aditya Gupta, Ahmed Laban, Andrew Zhang,
             Arushi Srivastava, Aryan Nagariya, Brandon Adiele, Bryan Denq, Charles Cheng,
-            David Zhang, Egret Jin, Elaine Fan, Helena Zhang, Janna Goliff, Jimmy Ren, 
-            Leon Hertzberg, Logan Cho, Lindsay Smith, Linda Lu, Maggie Yu, 
+            David Zhang, Egret Jin, Elaine Fan, Helena Zhang, Janna Goliff, Jimmy Ren,
+            Leon Hertzberg, Logan Cho, Lindsay Smith, Linda Lu, Maggie Yu,
             Norman Chen, Subin Kim, Tinatin Kokoshvili, Vishaal Kumar, Wendy Wu,
             Shelly Wu
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            Caroline Chin, Christy Qiu, Connie Lin, Isabel An, Julia Deng, 
+            Caroline Chin, Christy Qiu, Connie Lin, Isabel An, Julia Deng,
             Juliana Lu, Karen Zheng, Kristine Lam, Vivienne Chen
           </p>
         </div>
       </div>
 
-      <div style={{height: "30px"}} />
+      <div style={{ height: "30px" }} />
     </Layout>
   );
 };
