@@ -34,6 +34,42 @@ const DirectoryPage = () => {
             <br />
           </p>
         </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="red-title">Red</h3>
+          <p>
+            <span className="bold">Project Leads</span>:<br />
+            tbd
+            <br />
+            <br />
+            <span className="bold">Developers</span>:<br />
+            tbd
+            <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            tbd
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="blue-title">Blue</h3>
+          <p>
+            <span className="bold">Instructors</span>:<br />
+            tbd
+            <br />
+            <br />
+            <span className="bold">Developers</span>:<br />
+            tbd
+            <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            tbd
+          </p>
+        </div>
       </div>
 
       <div className="content-section">
