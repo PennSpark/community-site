@@ -41,15 +41,15 @@ const DirectoryPage = () => {
           <h3 className="red-title">Red</h3>
           <p>
             <span className="bold">Project Leads</span>:<br />
-            tbd
+            Anna Baringer, Ethan Zhao, Yuhan Liu
             <br />
             <br />
             <span className="bold">Developers</span>:<br />
-            tbd
+            Alyssa Nie, Anna Baringer, Arush Mehrotra, Clyve Gassant, Dhatri Medarametla, Eric Wang, Marcel Kida, Paul Loh, Rain Yan, Sanya Shetty, Sumanth Kadiyala
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            tbd
+            Allison Zhang, Chelsea Cheng, Christiana Guan, Claire Zhang, Joyce He, Marcel Kida, Mykaela Salvacion
           </p>
         </div>
 
@@ -59,15 +59,15 @@ const DirectoryPage = () => {
           <h3 className="blue-title">Blue</h3>
           <p>
             <span className="bold">Instructors</span>:<br />
-            tbd
+            Anna Xia, Chelsea Cheng, Christiana Guan, Joyce He, Hyun Ki Cho, Paul Loh, Yuhan Liu
             <br />
             <br />
             <span className="bold">Developers</span>:<br />
-            tbd
+            Allison Zhang, Zain Khan
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            tbd
+            Dhatri Medarametla, Yanjie Zhang
           </p>
         </div>
       </div>
@@ -223,6 +223,18 @@ const DirectoryPage = () => {
             <span className="bold">Designers</span>:<br />
             Caroline Chin, Christy Qiu, Connie Lin, Isabel An, Julia Deng,
             Juliana Lu, Karen Zheng, Kristine Lam, Vivienne Chen
+          </p>
+        </div>
+      </div>
+
+      <div className="content-section">
+        <h2>Alumni</h2>
+        <br />
+        <div className="directory-blob">
+          <h3 className="board-title">2022</h3>
+          <p>
+            Christina Lu, Emily Guo, Eric Dai, Grace Jiang, Olivia Zha
+            <br />
           </p>
         </div>
       </div>
