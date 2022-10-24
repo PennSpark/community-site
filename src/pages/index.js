@@ -25,7 +25,6 @@ import ArushMehrotra from "../images/sp22-headshots/arush-mehrotra.jpg"
 import SumanthKadiyala from "../images/sp22-headshots/sumanth-kadiyala.jpg"
 import NakyungLee from "../images/sp22-headshots/nakyung-lee.jpg"
 import YanjieZhang from "../images/sp22-headshots/yanjie-zhang.jpg"
-import EricDai from "../images/sp22-headshots/eric-dai.jpg"
 import MykaelaSalvacion from "../images/sp22-headshots/mykaela-salvacion.jpg"
 import ClyveGassant from "../images/sp22-headshots/clyve-gassant.jpg"
 import SanyaShetty from "../images/sp22-headshots/sanya-shetty.jpg"
@@ -53,7 +52,7 @@ import MalihaRahman from "../images/sp22-headshots/maliha-rahman.jpg"
 import NickCirillo from "../images/sp22-headshots/nick-cirillo.jpg"
 import NicoleZhao from "../images/sp22-headshots/nicole-zhao.jpg"
 import NwaiAlfa from "../images/sp22-headshots/nwai-alfa.jpg"
-import RazaqAribidesi from "../images/sp22-headshots/razaq-2.jpg"
+import RazaqAribidesi from "../images/sp22-headshots/razaq-aribidesi.jpg"
 import SydneySimon from "../images/sp22-headshots/sydney-simon.jpg"
 import TobiasNguyen from "../images/sp22-headshots/tobias-nguyen.jpg"
 import YuniKim from "../images/sp22-headshots/yuni-kim.jpg"
@@ -90,7 +89,6 @@ const IndexPage = () => {
         <Profile name="Clyve Gassant" role="Blue Developer" img={ClyveGassant} url="https://clyvegassant.github.io/" />
         <Profile name="Dhatri Medarametla" role="Blue Developer" img={DhatriMedarametla} url="https://dmed31.github.io/sparkwebsite/" />
         <Profile name="Emily Kang" role="Blue Developer" img={EmilyKang} url="www.linkedin.com/in/emily-kang-67b55b20a"/>
-        <Profile name="Eric Dai" role="Red Designer" img={EricDai} url="https://ericdai.org/" />
         <Profile name="Eric Wang" role="Red Developer" img={EricWang} url="https://etnwang.github.io/" />
         <Profile name="Ethan Zhao" role="VP Internal" img={EthanZhao} url="https://ethanxyzhao.com/" />
         <Profile name="Grace Thanglerdsumpan" role="Red Design" img={GraceThang} url="https://www.linkedin.com/in/chanya-thanglerdsumpan/"/>
