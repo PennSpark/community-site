@@ -21,11 +21,9 @@ import RainYan from "../images/sp22-headshots/rain-yan.jpg"
 import SubinKim from "../images/sp22-headshots/subin-kim.jpg"
 
 import EricWang from "../images/sp22-headshots/eric-wang.jpg"
-import ArushMehrotra from "../images/sp22-headshots/arush-mehrotra.jpg"
 import SumanthKadiyala from "../images/sp22-headshots/sumanth-kadiyala.jpg"
 import NakyungLee from "../images/sp22-headshots/nakyung-lee.jpg"
 import YanjieZhang from "../images/sp22-headshots/yanjie-zhang.jpg"
-import MykaelaSalvacion from "../images/sp22-headshots/mykaela-salvacion.jpg"
 import ClyveGassant from "../images/sp22-headshots/clyve-gassant.jpg"
 import SanyaShetty from "../images/sp22-headshots/sanya-shetty.jpg"
 import DhatriMedarametla from "../images/sp22-headshots/dhatri-medarametla.jpg"
@@ -81,7 +79,6 @@ const IndexPage = () => {
         <Profile name="Andrew Jiang" role="Co-Director" img={AndrewJiang} url="https://github.com/aJayz54" />
         <Profile name="Anna Xia" role="Red Developer" img={AnnaXia} url="https://www.linkedin.com/in/anna-xia24/" />
         <Profile name="April Zhang" role="Blue Design" img={AprilZhang} url=""/>
-        <Profile name="Arush Mehrotra" role="Red Developer" img={ArushMehrotra} url="https://www.linkedin.com/in/arush-mehrotra/" />
         <Profile name="Athena Ho" role="Blue Developer" img={AthenaHo} url="https://www.linkedin.com/in/athenalho"/>
         <Profile name="Chelsea Cheng" role="Red Designer" img={ChelseaCheng} url="https://chelseacheng.com" />
         <Profile name="Christiana Guan" role="Blue Designer" img={ChristianaGuan} url="https://www.linkedin.com/in/christianag/" />
@@ -106,7 +103,6 @@ const IndexPage = () => {
         <Profile name="Marcel Kida" role="Red Developer &amp; Designer" img={MarcelKida} url="https://marcelkida.com/" />
         <Profile name="Matthew Cho" role="Red Developer" img={MatthewCho} url="https://www.linkedin.com/in/hyun-ki-cho/" />
         <Profile name="Matthew Dong" role="Development Instructor" img={MatthewDong} url="https://matt-dong.github.io" />
-        <Profile name="Mykaela Salvacion" role="Blue Designer" img={MykaelaSalvacion} url="https://www.linkedin.com/in/mykaela-salvacion/" />
         <Profile name="Na Kyung Lee" role="VP Blue" img={NakyungLee} url="https://leeenk.github.io/" />
         <Profile name="Nick Cirillo" role="Blue Developer" img={NickCirillo} url="https://www.linkedin.com/in/nicholas-cirillo-/" />
         <Profile name="Nicole Zhao" role="Blue Developer" img={NicoleZhao} url="https://www.linkedin.com/in/nicole-zhao-a92153210/" />
