@@ -67,7 +67,7 @@ const IndexPage = () => {
       </div>
 
       <div className="content-section" style={{ marginBottom: "10px" }}>
-        <h2>Fall 2022</h2>
+        <h2>Spring 2022</h2>
       </div>
 
       <div id="profiles-section">
