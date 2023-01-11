@@ -15,6 +15,61 @@ const DirectoryPage = () => {
         <br />
         <Navbar />
       </div>
+      <div className="content-section">
+        <h2>Spring 2023</h2>
+        <br />
+        <div className="directory-blob">
+          <h3 className="board-title">Board</h3>
+          <p>
+            <span className="bold">Directors</span>: Andrew Jiang, Jimmy Ren
+            <br />
+            <span className="bold">VP Internal</span>: Ethan Zhao
+            <br />
+            <span className="bold">VP External</span>: Janice Kim
+            <br />
+            <span className="bold">VP Red</span>: Subin Kim
+            <br />
+            <span className="bold">VP Blue</span>: Na Kyung Lee
+            <br />
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="red-title">Red</h3>
+          <p>
+            <span className="bold">Project Leads</span>:<br />
+            Anna Baringer, Ethan Zhao, Yuhan Liu
+            <br />
+            <br />
+            <span className="bold">Developers</span>:<br />
+            Alyssa Nie, Anna Baringer, Clyve Gassant, Dhatri Medarametla, Eric Wang, Marcel Kida, Paul Loh, Rain Yan, Sanya Shetty, Sumanth Kadiyala
+            <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            Allison Zhang, Chelsea Cheng, Christiana Guan, Claire Zhang, Joyce He, Marcel Kida
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="blue-title">Blue</h3>
+          <p>
+            <span className="bold">Instructors</span>:<br />
+            Anna Xia, Chelsea Cheng, Christiana Guan, Joyce He, Hyun Ki Cho, Paul Loh, Yuhan Liu
+            <br />
+            <br />
+            <span className="bold">Developers</span>:<br />
+            Allison Zhang, Zain Khan
+            <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            Dhatri Medarametla, Yanjie Zhang
+          </p>
+        </div>
+      </div>
 
       <div className="content-section">
         <h2>Fall 2022</h2>
