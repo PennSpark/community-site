@@ -44,15 +44,15 @@ const DirectoryPage = () => {
           <h3 className="red-title">Red</h3>
           <p>
             <span className="bold">Project Leads</span>:<br />
-            Anna Baringer, Ethan Zhao, Yuhan Liu
+            Elyssa Chou, Marcel Kida, Paul Loh
             <br />
             <br />
             <span className="bold">Developers</span>:<br />
-            Alyssa Nie, Anna Baringer, Clyve Gassant, Dhatri Medarametla, Eric Wang, Marcel Kida, Paul Loh, Rain Yan, Sanya Shetty, Sumanth Kadiyala
+            August Fu, Cindy Wei, Clyve Gassant, Dhatri Medarametla, Elizabeth Chou,Hyun Ki Cho, Kashyap Chaturvedula, Marcel Kida, Paul Loh, Praneel Chakraborty, Ryan De Lopez, Yuhan Liu, Haley Kang
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            Allison Zhang, Chelsea Cheng, Christiana Guan, Claire Zhang, Joyce He, Marcel Kida
+            Grace Thanglerdsumpan, Jasper Zhu, Joyce Yoon, Michelle Gong, Christiana Guan, Joyce He
           </p>
         </div>
 
@@ -62,15 +62,15 @@ const DirectoryPage = () => {
           <h3 className="blue-title">Blue</h3>
           <p>
             <span className="bold">Instructors</span>:<br />
-            Anna Xia, Chelsea Cheng, Christiana Guan, Joyce He, Hyun Ki Cho, Paul Loh, Yuhan Liu
+            Alyssa Nie, Chelsea Cheng, Eric Wang, Jimmy Ren, Anna Xia, Christiana Guan, Joyce He, Janice Kim
             <br />
             <br />
             <span className="bold">Developers</span>:<br />
-            Allison Zhang, Zain Khan
+            Andre van de Ven, Emily Kang, James Baker, Kai Wang, Nick Cirillo, Nicole Zhao, Razaq Aribidesi, Sanya Shetty, Sydney Simon, Zain Khan
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
-            Dhatri Medarametla, Yanjie Zhang
+            April Zhang, Isabelle Gu, Jason Saito, Maliha Rahman, Nwai Alfa, Tobias Nguyen, Yanjie Zhang, Barbara Seyram Nhyira Agbotey 
           </p>
         </div>
       </div>
