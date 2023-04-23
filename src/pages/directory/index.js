@@ -23,13 +23,17 @@ const DirectoryPage = () => {
           <p>
             <span className="bold">Directors</span>: Andrew Jiang, Jimmy Ren
             <br />
-            <span className="bold">VP Internal</span>: Ethan Zhao
+            <span className="bold">VP Internal</span>: Anna Xia
             <br />
             <span className="bold">VP External</span>: Janice Kim
             <br />
             <span className="bold">VP Red</span>: Subin Kim
             <br />
             <span className="bold">VP Blue</span>: Na Kyung Lee
+            <br />
+            <span className="bold">Social Chair</span>: Haley Kang
+            <br />
+            <span className="bold">Communications Chair</span>: Claire Zhang
             <br />
           </p>
         </div>
