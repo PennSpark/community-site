@@ -10,6 +10,8 @@
 
 .profile-image {
   width: 100%;
+
+
   transition: filter 0.1s ease-in-out;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%) brightness(80%) contrast(130%);
@@ -18,8 +20,10 @@
 /* blur(2px) is a cool filter too :D */
 
 .profile-image:hover {
-  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(0%); /* FF 35+ */
+  -webkit-filter: grayscale(0%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%);
+  /* FF 35+ */
 }
 
 .profile-text {
