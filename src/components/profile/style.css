@@ -14,7 +14,7 @@
 
   transition: filter 0.1s ease-in-out;
   -webkit-filter: grayscale(0%);
-  filter: grayscale(0%) brightness(80%) contrast(130%);
+  filter: grayscale(0%) brightness(100%);
 }
 
 /* blur(2px) is a cool filter too :D */
