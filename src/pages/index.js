@@ -54,9 +54,9 @@ import NondPhokasub from "../images/sp23-headshots/nond-phokasub.jpeg"
 import NwaiAlfa from "../images/sp23-headshots/nwai-alfa.jpg"
 import NamitaSajai from "../images/sp23-headshots/namita-sajai.jpeg"
 import PaulLoh from "../images/sp23-headshots/paul-loh.jpg"
-// import RaelynnCui from "../images/sp23-headshots/raelynn-cui.jpg"
+import RaelynnCui from "../images/sp23-headshots/raelynn-cui.jpg"
 import RainYan from "../images/sp23-headshots/rain-yan.jpg"
-import RafaelMartinez from "../images/sp23-headshots/raphael-martinez.png"
+import RaphaelMartinez from "../images/sp23-headshots/raphael-martinez.png"
 import RazaqAribidesi from "../images/sp23-headshots/razaq-aribidesi.jpg"
 import RyanDeLopez from "../images/sp23-headshots/ryan-de-lopez.jpg"
 import Sey from "../images/sp23-headshots/sey.jpg"
@@ -85,74 +85,83 @@ const IndexPage = () => {
       </div>
 
       <div className="content-section" style={{ marginBottom: "10px" }}>
-        <h2>Spring 2024</h2>
+        <h2>Fall 2024</h2>
       </div>
 
       <div id="profiles-section">
-        <Profile name="Haley Kang" role="Co-director" img={HaleyKang} url="https://www.linkedin.com/in/hyejinkang02" />
-        <Profile name="Paul Loh" role="Co-Director" img={PaulLoh} url="https://lohpaul9.github.io/" />
-        <Profile name="Andre van de Ven" role="Internal VP" img={AndreVen} url="https://www.andrevandeven.us/" />
-        <Profile name="Grace Thanglerdsumpan" role="External VP" img={GraceThang} url="https://www.linkedin.com/in/chanya-thanglerdsumpan/" />
-        <Profile name="Jasper Zhu" role="Red VP" img={JasperZhu} url="https://www.linkedin.com/in/jasper-zhu-827063193" />
-        <Profile name="Nick Cirillo" role="Blue VP" img={NickCirillo} url="https://www.linkedin.com/in/nicholas-cirillo-/" />
-        <Profile name="Joyce Chen" role="Marketing Chair" img={JoyceChen} url="https://joycezchen.myportfolio.com/work" />
-        <Profile name="Luna Chen" role="Social Chair" img={LunaChen} url="https://www.linkedin.com/in/luna-chen-9246501b0/" />
+        <Profile name="Nick Cirillo" role="Co-President" img={NickCirillo} url="https://www.linkedin.com/in/nicholas-cirillo-/" />
+        <Profile name="Andre van de Ven" role="Co-President" img={AndreVen} url="https://www.andrevandeven.us/" />
+        <Profile name="Megan Yang" role="VP Internal" img={MeganYang} url="megyang@seas.upenn.edu" />
+        <Profile name="Meiling Mathur" role="VP External" img={MeilingMathur} url="https://www.linkedin.com/in/meilingmathur/" />
+        <Profile name="Jasmine Wang" role="VP Red" img={JasmineWang} url="https://jasminewangux.com/" />
+        <Profile name="Raphael Martinez" role="VP Blue" img={RaphaelMartinez} url="" />
+        <Profile name="Namita Sajai" role="Marketing Chair" img={NamitaSajai} url="https://namitasajai.github.io/finalportfolio/index.html" />
+        <Profile name="Luke Tong" role="Social Chair" img={LukeTong} url="https://www.linkedin.com/in/luke-rt/" />
 
-        <Profile name="Jasmine Wang" role="Red Project Lead" img={JasmineWang} url="https://jasminewangux.com/" />
-        <Profile name="James Baker" role="Red Project Lead" img={JamesBaker} url="https://www.linkedin.com/in/james-baker-4694b7206" />
         <Profile name="Eric Lee" role="Project Lead" img={EricLee} url="https://www.ericslee.dev" />
-        <Profile name="Luke Tong" role="Red Project Lead" img={LukeTong} url="https://www.linkedin.com/in/luke-rt/" />
-        <Profile name="Yue Zhao" role="Red Designer" img={YueZhao} url="https://www.linkedin.com/in/yue-zhao-janie/" />
+
+        <Profile name="Joyce Chen" role="Red Designer/Developer" img={JoyceChen} url="https://joycezchen.myportfolio.com/work" />
+        <Profile name="Raelynn Cui" role="Red Designer" img={RaelynnCui} url="" />
+        <Profile name="Fiona Herzog" role="Red Designer" img={FionaHerzog} url="" />
         <Profile name="Ani Nguyen Le" role="Red Designer" img={AniNguyenLe} url="https://www.linkedin.com/in/ani-nguyen-le-0788a1220" />
-        <Profile name="Namita Sajai" role="Red Designer" img={NamitaSajai} url="https://namitasajai.github.io/finalportfolio/index.html" />
+        <Profile name="Nond Phokasub" role="Red Designer" img={NondPhokasub} url="https://bynond.com/" />
+        <Profile name="Yue Zhao" role="Red Designer" img={YueZhao} url="https://www.linkedin.com/in/yue-zhao-janie/" />
+
+        <Profile name="Lori Brown" role="Red Developer" img={LoriBrown} url="https://www.linkedin.com/in/lori-brown-17a653248/" />
+        <Profile name="Angie Cao" role="Red Developer" img={AngieCao} url="https://www.linkedin.com/in/angelina-cao-78a0551a5" />
         <Profile name="Fiona Jiang" role="Red Developer" img={FionaJiang} url="http://linkedin.com/in/fiona-jiang-62b6a31b2" />
+        <Profile name="Michael Li" role="Red Developer" img={MichaelLi} url="https://github.com/Michaell14" />
+        <Profile name="Sanya Shetty" role="Red Developer" img={SanyaShetty} url="https://sanyashetty.github.io/" />
+        <Profile name="Katherine Yue" role="Red Developer" img={KatherineYue} url="https://www.linkedin.com/in/katherine-yue/" />
+
+        <Profile name="Seyram Agbotey" role="Mentor" img={Sey} url="https://seynhyi.github.io" />
+        <Profile name="James Baker" role="Mentor" img={JamesBaker} url="https://www.linkedin.com/in/james-baker-4694b7206" />
+        <Profile name="Paul Loh" role="Mentor" img={PaulLoh} url="https://lohpaul9.github.io/" />
+        <Profile name="Grace Thanglerdsumpan" role="Mentor" img={GraceThang} url="https://www.linkedin.com/in/chanya-thanglerdsumpan/" />
+        <Profile name="Eric Wang" role="Mentor" img={EricWang} url="https://etnwang.github.io/" />
+        <Profile name="April Zhang" role="Mentor" img={AprilZhang} url="" />
+
+        <Profile name="Defne Tim" role="Blue Designer" img={DefneTim} url="https://www.linkedin.com/in/defne-tim-b61b7126b" />
+
+        <Profile name="Ryan De Lopez" role="Social Member" img={RyanDeLopez} url="https://www.linkedin.com/in/vrdelopez/" />
+        <Profile name="August Fu" role="Social Member" img={August} url="https://www.linkedin.com/in/august-fu" />
+        <Profile name="Johnny Jeong" role="Social Member" img={JohnnyJeong} url="https://www.linkedin.com/in/jaeheon-jeong-ab0761223" />
+        <Profile name="Xue Jiang" role="Social Member" img={XueJiang} url="https://xue-portfolio.vercel.app/" />
+        <Profile name="Emily Kang" role="Social Member" img={EmilyKang} url="https://www.linkedin.com/in/emily-kang-67b55b20a" />
+        <Profile name="Marcel Kida" role="Social Member" img={MarcelKida} url="https://marcelkida.com/" />
+        <Profile name="Na Lee" role="Social Member" img={NakyungLee} url="https://leeenk.github.io/" />
+        <Profile name="Tobias Nguyen" role="Social Member" img={TobiasNguyen} url="https://www.linkedin.com/mwlite/in/tung-nguyen-95195820b" />
+        <Profile name="Ethan Zhao" role="Social Member" img={EthanZhao} url="https://ethanxyzhao.com/" />
+        <Profile name="Jasper Zhu" role="Social Member" img={JasperZhu} url="https://www.linkedin.com/in/jasper-zhu-827063193" />
+      
+        
+
+
+
+
+
+        
+        
+        {/* 
+        <Profile name="Luna Chen" role="Social Chair" img={LunaChen} url="https://www.linkedin.com/in/luna-chen-9246501b0/" />
+        <Profile name="Gabriel Thiessen" role="Blue Developer" img={GabrielThiessen} url="https://github.com/bingberpbuck" />
+        <Profile name="David Lee" role="Blue Developer" img={DavidLee} url="" />
         <Profile name="Joseph Dattilo" role="Red Developer" img={JosephDattilo} url="https://www.linkedin.com/in/joe-dattilo/" />
         <Profile name="Charles Jin" role="Red Developer" img={CharlesJin} url="https://www.linkedin.com/in/chenxi-charles-jin" />
-        <Profile name="Megan Yang" role="Red Developer" img={MeganYang} url="megyang@seas.upenn.edu" />
-        <Profile name="Meiling Mathur" role="Red Developer" img={MeilingMathur} url="https://www.linkedin.com/in/meilingmathur/" />
-        <Profile name="Michael Li" role="Red Developer" img={MichaelLi} url="https://github.com/Michaell14" />
-        <Profile name="August Fu" role="Red Developer" img={August} url="https://www.linkedin.com/in/august-fu" />
-        <Profile name="Emily Kang" role="Red Developer" img={EmilyKang} url="https://www.linkedin.com/in/emily-kang-67b55b20a" />
-        <Profile name="Angie Cao" role="Red Developer" img={AngieCao} url="https://www.linkedin.com/in/angelina-cao-78a0551a5" />
-        <Profile name="Johhny Jeong" role="Red Developer" img={JohnnyJeong} url="https://www.linkedin.com/in/jaeheon-jeong-ab0761223" />
         <Profile name="Cindy Wei" role="Red Developer" img={CindyWei} url="https://www.linkedin.com/in/cindy-wei-7ba778227/" />
-        <Profile name="Lori Brown" role="Red Developer" img={LoriBrown} url="https://www.linkedin.com/in/lori-brown-17a653248/" />
         <Profile name="Sumanth Kadiyala" role="Rev Developer" img={SumanthKadiyala} url="https://www.linkedin.com/in/sumanthkadiyala/" />
 
-        <Profile name="Barbara Seyram Nhyira Agbotey" role="Blue Mentor" img={Sey} url="https://seynhyi.github.io" />
-        <Profile name="Chelsea Cheng" role="Blue Mentor" img={ChelseaCheng} url="https://chelseacheng.com" />
-        <Profile name="Fiona Herzog" role="Blue Designer" img={FionaHerzog} url="" />
-        <Profile name="Nond Phokasub" role="Blue Designer" img={NondPhokasub} url="https://bynond.com/" />
-        <Profile name="Gabriel Thiessen" role="Blue Developer" img={GabrielThiessen} url="https://github.com/bingberpbuck" />
-        <Profile name="Katherine Yue" role="Blue Developer" img={KatherineYue} url="https://www.linkedin.com/in/katherine-yue/" />
-        <Profile name="Rafael Martinez" role="Blue Developer" img={RafaelMartinez} url="" />
-        <Profile name="Xue Jiang" role="Blue Developer" img={XueJiang} url="https://xue-portfolio.vercel.app/" />
-        <Profile name="David Lee" role="Blue Developer" img={DavidLee} url="" />
-        <Profile name="Raphael Martinez" role="Blue Developer" img={RafaelMartinez} url="" />
-
-        <Profile name="Anna Xia" role="Social Member" img={AnnaXia} url="https://www.linkedin.com/in/anna-xia24/" />
-        <Profile name="Andrew Jiang" role="Social Member" img={AndrewJiang} url="https://github.com/aJayz54" />
-        <Profile name="April Zhang" role="Social Member" img={AprilZhang} url="" />
-        <Profile name="Defne Tim" role="Social Member" img={DefneTim} url="https://www.llinkedin.com/in/defne-tim-b61b7126b" />
         <Profile name="Dhatri Medarametla" role="Social Member" img={DhatriMedarametla} url="https://dmed31.github.io/sparkwebsite/" />
-        <Profile name="Eric Wang" role="Social Member" img={EricWang} url="https://etnwang.github.io/" />
-        <Profile name="Ethan Zhao" role="Social Member" img={EthanZhao} url="https://ethanxyzhao.com/" />
-        <Profile name="Janice Kim" role="Social Member" img={JaniceKim} url="https://www.jankim.me/" />
         <Profile name="Jason Saito" role="Social Member" img={JasonSaito} url="https://www.linkedin.com/in/jason-saito/" />
-        <Profile name="Marcel Kida" role="Social Member" img={MarcelKida} url="https://marcelkida.com/" />
-        <Profile name="Matthew Dong" role="Social Member" img={MatthewDong} url="https://matt-dong.github.io" />
-        <Profile name="Na Kyung Lee" role="Social Member" img={NakyungLee} url="https://leeenk.github.io/" />
+        <Profile name="Kashyap Chaturvedula" role="Social Member" img={Kashyap} url="https://www.linkedin.com/in/kashyap-chaturvedula-596682162/" />
         <Profile name="Nwai Alfa" role="Social Member" img={NwaiAlfa} url="https://www.linkedin.com/in/nwai" />
         <Profile name="Rain Yan" role="Social Member" img={RainYan} url="https://github.com/xcupsilon" />
         <Profile name="Razaq Aribidesi" role="Social Member" img={RazaqAribidesi} url="https://www.linkedin.com/in/abudurazaqaribidesi/" />
-        <Profile name="Ryan De Lopez" role="Social Member" img={RyanDeLopez} url="https://www.linkedin.com/in/vrdelopez/" />
-        <Profile name="Sanya Shetty" role="Social Member" img={SanyaShetty} url="https://sanyashetty.github.io/" />
         <Profile name="Sydney Simon" role="Social Member" img={SydneySimon} url="https://www.linkedin.com/in/sydney-simon-1468b318b/" />
-        <Profile name="Tobias Nguyen" role="Social Member" img={TobiasNguyen} url="https://www.linkedin.com/mwlite/in/tung-nguyen-95195820b" />
         <Profile name="Yuhan Liu" role="Social Member" img={YuhanLiu} url="https://yuhanliu-tech.github.io/" />
-        <Profile name="Joyce He" role="Social Member" img={JoyceHe} url="https://www.linkedin.com/in/joyce-he-1059a21b4" />
-        <Profile name="Joyce Yoon" role="Social Member" img={JoyceYoon} url="https://www.linkedin.com/in/joyce-yoon-penn/" />
-        <Profile name="Kashyap Chaturvedula" role="Social Member" img={Kashyap} url="https://www.linkedin.com/in/kashyap-chaturvedula-596682162/" />
+        <Profile name="Joyce Yoon" role="Social Member" img={JoyceYoon} url="https://www.linkedin.com/in/joyce-yoon-penn/" /> */}
+
+
       </div>
     </Layout>
   );
