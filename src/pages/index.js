@@ -44,7 +44,7 @@ import LukeTong from "../images/sp23-headshots/luke-tong.jpg"
 import LunaChen from "../images/sp23-headshots/luna-chen.jpeg"
 import LoriBrown from "../images/sp23-headshots/lori-brown.jpeg"
 import MarcelKida from "../images/sp23-headshots/marcel-kida.jpg"
-// import MaryLiu from "../images/sp23-headshots/mary-liu.jpg"
+import MaryLiu from "../images/sp23-headshots/mary-liu.jpg"
 import MatthewDong from "../images/sp23-headshots/matthew-dong.jpg"
 import MeganYang from "../images/sp23-headshots/megan-yang.jpeg"
 import MeilingMathur from "../images/sp23-headshots/meiling-mathur.jpeg"
@@ -105,7 +105,7 @@ const IndexPage = () => {
         <Profile name="Joyce Chen" role="Red Designer/Developer" img={JoyceChen} url="https://joycezchen.myportfolio.com/work" />
         <Profile name="Raelynn Cui" role="Red Designer" img={RaelynnCui} url="" />
         <Profile name="Fiona Herzog" role="Red Designer" img={FionaHerzog} url="" />
-        {/* <Profile name="Mary Liu" role="Red Designer" img={MaryLiu} url="" /> */}
+        <Profile name="Mary Liu" role="Red Designer" img={MaryLiu} url="" />
         <Profile name="Ani Nguyen Le" role="Red Designer" img={AniNguyenLe} url="https://www.linkedin.com/in/ani-nguyen-le-0788a1220" />
         <Profile name="Nond Phokasub" role="Red Designer" img={NondPhokasub} url="https://bynond.com/" />
         <Profile name="Jason Saito" role="Red Designer" img={JasonSaito} url="https://www.linkedin.com/in/jason-saito/" />
