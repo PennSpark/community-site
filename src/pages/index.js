@@ -116,7 +116,7 @@ const IndexPage = () => {
         <Profile name="Luna Chen" role="Red Developer" img={LunaChen} url="https://www.linkedin.com/in/luna-chen-9246501b0/" />
         <Profile name="Joseph Dattilo" role="Red Developer" img={JosephDattilo} url="https://www.linkedin.com/in/joe-dattilo/" />
         <Profile name="Fiona Jiang" role="Red Developer" img={FionaJiang} url="http://linkedin.com/in/fiona-jiang-62b6a31b2" />
-        <Profile name="Charles Jin" role="Red Developer" img={CharlesJin} url="https://www.linkedin.com/in/chenxi-charles-jin" />
+        <Profile name="David Lee" role="Blue Developer" img={DavidLee} url="" />
         <Profile name="Eric Lee" role="Red Developer" img={EricLee} url="https://www.ericslee.dev" />
         <Profile name="Michael Li" role="Red Developer" img={MichaelLi} url="https://github.com/Michaell14" />
         <Profile name="Sanya Shetty" role="Red Developer" img={SanyaShetty} url="https://sanyashetty.github.io/" />
@@ -137,6 +137,7 @@ const IndexPage = () => {
         <Profile name="August Fu" role="Social Member" img={August} url="https://www.linkedin.com/in/august-fu" />
         <Profile name="Johnny Jeong" role="Social Member" img={JohnnyJeong} url="https://www.linkedin.com/in/jaeheon-jeong-ab0761223" />
         <Profile name="Xue Jiang" role="Social Member" img={XueJiang} url="https://xue-portfolio.vercel.app/" />
+        <Profile name="Charles Jin" role="Social Member" img={CharlesJin} url="https://www.linkedin.com/in/chenxi-charles-jin" />
         <Profile name="Sumanth Kadiyala" role="Social Member" img={SumanthKadiyala} url="https://www.linkedin.com/in/sumanthkadiyala/" />
         <Profile name="Emily Kang" role="Social Member" img={EmilyKang} url="https://www.linkedin.com/in/emily-kang-67b55b20a" />
         <Profile name="Marcel Kida" role="Social Member" img={MarcelKida} url="https://marcelkida.com/" />
@@ -147,9 +148,7 @@ const IndexPage = () => {
       
         
         {/* 
-        
-        
-        <Profile name="David Lee" role="Blue Developer" img={DavidLee} url="" />
+      
         <Profile name="Cindy Wei" role="Red Developer" img={CindyWei} url="https://www.linkedin.com/in/cindy-wei-7ba778227/" />
         <Profile name="Dhatri Medarametla" role="Social Member" img={DhatriMedarametla} url="https://dmed31.github.io/sparkwebsite/" />
         <Profile name="Nwai Alfa" role="Social Member" img={NwaiAlfa} url="https://www.linkedin.com/in/nwai" />
