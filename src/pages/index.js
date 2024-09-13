@@ -120,6 +120,7 @@ const IndexPage = () => {
         <Profile name="Michael Li" role="Red Developer" img={MichaelLi} url="https://github.com/Michaell14" />
         <Profile name="Sanya Shetty" role="Red Developer" img={SanyaShetty} url="https://sanyashetty.github.io/" />
         <Profile name="Gabriel Thiessen" role="Red Developer" img={GabrielThiessen} url="https://github.com/bingberpbuck" />
+        <Profile name="Cindy Wei" role="Red Developer" img={CindyWei} url="https://www.linkedin.com/in/cindy-wei-7ba778227/" />
         <Profile name="Katherine Yue" role="Red Developer" img={KatherineYue} url="https://www.linkedin.com/in/katherine-yue/" />
 
         {/* Blue here */}
@@ -149,7 +150,7 @@ const IndexPage = () => {
         
         {/* 
         
-        <Profile name="Cindy Wei" role="Red Developer" img={CindyWei} url="https://www.linkedin.com/in/cindy-wei-7ba778227/" />
+        
         <Profile name="Dhatri Medarametla" role="Social Member" img={DhatriMedarametla} url="https://dmed31.github.io/sparkwebsite/" />
         <Profile name="Nwai Alfa" role="Social Member" img={NwaiAlfa} url="https://www.linkedin.com/in/nwai" />
         <Profile name="Rain Yan" role="Social Member" img={RainYan} url="https://github.com/xcupsilon" />
