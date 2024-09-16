@@ -20,12 +20,16 @@ import DavidLee from "../images/sp23-headshots/david-lee.jpeg"
 import DefneTim from "../images/sp23-headshots/defne-tim.jpg"
 import DhatriMedarametla from "../images/sp23-headshots/dhatri-medarametla.jpg"
 import EmilyKang from "../images/sp23-headshots/emily-kang.jpeg"
+import EmmiWu from "../images/fa24-headshots/Emmi Wu.jpg"
 import EricWang from "../images/sp23-headshots/eric-wang.jpg"
 import EricLee from "../images/sp23-headshots/eric-lee.png"
+import EricZou from "../images/fa24-headshots/Eric Zou.jpg"
+import EstelleKim from "../images/fa24-headshots/Estelle Kim.jpeg"
 import EthanZhao from "../images/sp23-headshots/ethan-zhao.jpg"
 import FionaHerzog from "../images/sp23-headshots/fiona-herzog.jpg"
 import FionaJiang from "../images/sp23-headshots/fiona-jiang.jpeg"
 import GabrielThiessen from "../images/sp23-headshots/gabriel-thiessen.jpeg"
+import GiaGupta from "../images/fa24-headshots/Gia Gupta.png"
 import GraceThang from "../images/sp23-headshots/grace-thanglerdsumpan.jpg"
 import HaleyKang from "../images/sp23-headshots/haley-kang.png"
 import JamesBaker from "../images/sp23-headshots/james-baker.jpg"
@@ -33,6 +37,7 @@ import JaniceKim from "../images/sp23-headshots/janice-kim.jpg"
 import JasmineWang from "../images/sp23-headshots/jasmine-wang.png"
 import JasonSaito from "../images/sp23-headshots/jason-saito.jpg"
 import JasperZhu from "../images/sp23-headshots/jasper-zhu.jpg"
+import JaymeChen from "../images/fa24-headshots/Jayme Chen.jpeg"
 import JohnnyJeong from "../images/sp23-headshots/johnny-jeong.jpg"
 import JoyceChen from "../images/sp23-headshots/joyce-chen.jpeg"
 import JoyceHe from "../images/sp23-headshots/joyce-he.jpg"
@@ -40,6 +45,9 @@ import JoyceYoon from "../images/sp23-headshots/joyce-yoon.jpg"
 import JosephDattilo from "../images/sp23-headshots/joseph-dattilo.jpeg"
 import Kashyap from "../images/sp23-headshots/kashyap.jpg"
 import KatherineYue from "../images/sp23-headshots/katherine-yue.jpeg"
+import KevinWei from "../images/fa24-headshots/Kevin Wei.jpeg"
+import LucaPicazo from "../images/fa24-headshots/Luca Picazo.jpeg"
+import LukaKoll from "../images/fa24-headshots/Luka Koll.jpg"
 import LukeTong from "../images/sp23-headshots/luke-tong.jpg"
 import LunaChen from "../images/sp23-headshots/luna-chen.jpeg"
 import LoriBrown from "../images/sp23-headshots/lori-brown.jpeg"
@@ -48,28 +56,36 @@ import MaryLiu from "../images/sp23-headshots/mary-liu.jpg"
 import MatthewDong from "../images/sp23-headshots/matthew-dong.jpg"
 import MeganYang from "../images/sp23-headshots/megan-yang.jpeg"
 import MeilingMathur from "../images/sp23-headshots/meiling-mathur.jpeg"
+import MelodyZhang from "../images/fa24-headshots/Melody Zhang.jpeg"
 import MichaelLi from "../images/sp23-headshots/michael-li.jpeg"
 import NakyungLee from "../images/sp23-headshots/nakyung-lee.jpg"
 import NickCirillo from "../images/sp23-headshots/nick-cirillo.png"
 import NondPhokasub from "../images/sp23-headshots/nond-phokasub.jpg"
 import NwaiAlfa from "../images/sp23-headshots/nwai-alfa.jpg"
 import NamitaSajai from "../images/sp23-headshots/namita-sajai.jpeg"
+import NishatOlayiwola from "../images/fa24-headshots/Nishat Olayiwola.jpg"
+import OliviaHu from "../images/fa24-headshots/Olivia Hu.jpg"
 import PaulLoh from "../images/sp23-headshots/paul-loh.jpg"
 import RaelynnCui from "../images/sp23-headshots/raelynn-cui.jpg"
 import RainYan from "../images/sp23-headshots/rain-yan.jpg"
 import RaphaelMartinez from "../images/sp23-headshots/raphael-martinez.png"
 import RazaqAribidesi from "../images/sp23-headshots/razaq-aribidesi.jpg"
+import RuthZhao from "../images/fa24-headshots/Ruth Zhao.PNG"
 import RyanDeLopez from "../images/sp23-headshots/ryan-de-lopez.jpg"
+import SamPark from "../images/fa24-headshots/Sam Park.heic"
 import Sey from "../images/sp23-headshots/sey.jpg"
 import SumanthKadiyala from "../images/sp23-headshots/sumanth-kadiyala.jpg"
 import SanyaShetty from "../images/sp23-headshots/sanya-shetty.jpg"
-
-
+import SethSukboontip from "../images/fa24-headshots/Seth Sukboontip.jpg"
+import ShauryaSarma from "../images/fa24-headshots/Shaurya Sarma.jpg"
 import SydneySimon from "../images/sp23-headshots/sydney-simon.jpg"
+import TermTaepaisitphongse from "../images/fa24-headshots/Term Taepaisitphongse.JPG" 
 import TobiasNguyen from "../images/sp23-headshots/tobias-nguyen.jpg"
+import WesleyLiu from "../images/fa24-headshots/Wesley Liu.jpg"
 import XueJiang from "../images/sp23-headshots/xue-jiang.jpg"
 import YuhanLiu from "../images/sp23-headshots/yuhan-liu.jpg"
 import YueZhao from "../images/sp23-headshots/yue-zhao.jpeg"
+import ZaraBaig from "../images/fa24-headshots/Zara Baig.jpeg"
 
 
 
@@ -123,7 +139,41 @@ const IndexPage = () => {
         <Profile name="Cindy Wei" role="Red Developer" img={CindyWei} url="https://www.linkedin.com/in/cindy-wei-7ba778227/" />
         <Profile name="Katherine Yue" role="Red Developer" img={KatherineYue} url="https://www.linkedin.com/in/katherine-yue/" />
 
+
+
+        {/* <Profile name="Max de Castro" role="Red Designer" img={MaxdeCastro} url="" /> */}
+        {/* <Profile name="Sarah Chan" role="Red Designer" img={SarahChan} url="" /> */}
+        <Profile name="Emmi Wu" role="Red Designer" img={EmmiWu} url="" />
+        <Profile name="Ruth Zhao" role="Red Designer" img={RuthZhao} url="https://www.linkedin.com/in/ruth-zhao-450446251/" />
+
+        <Profile name="Estelle Kim" role="Red Developer" img={EstelleKim} url="https://www.linkedin.com/in/estelle-kim-41b1b7218/" />
+        <Profile name="Luka Koll" role="Red Developer" img={LukaKoll} url="https://www.linkedin.com/in/luka-koll-704715274/" />
+        <Profile name="Shaurya Sarma" role="Red Developer" img={ShauryaSarma} url="https://www.linkedin.com/in/shaurya-sarma/" />
+        <Profile name="Term Taepaisitphongse" role="Red Developer" img={TermTaepaisitphongse} url="" />
+        <Profile name="Eric Zou" role="Red Developer" img={EricZou} url="https://ezou626.github.io" />
+
+
+
+
         {/* Blue here */}
+        <Profile name="Zara Baig" role="Blue Designer" img={ZaraBaig} url="" />
+        <Profile name="Nishat Olayiwola" role="Blue Designer" img={NishatOlayiwola} url="https://nishatolay.netlify.app/" />
+        <Profile name="Luca Picazo" role="Blue Designer" img={LucaPicazo} url="https://lkplorenzo.wixsite.com/breakeven" />
+        <Profile name="Kevin Wei" role="Blue Designer" img={KevinWei} url="https://kevinwei.itch.io/" />
+        <Profile name="Melody Zhang" role="Blue Designer" img={MelodyZhang} url="https://drive.google.com/drive/folders/15JxR0x9xpSuJKatoIyEU47xBR_9-ez3d" />
+        
+        <Profile name="Jayme Chen" role="Blue Developer" img={JaymeChen} url="" />
+        <Profile name="Gia Gupta" role="Blue Developer" img={GiaGupta} url="" />
+        <Profile name="Olivia Hu" role="Blue Developer" img={OliviaHu} url="https://github.com/olivianhu" />
+        {/* <Profile name="Brianna Kwan" role="Blue Developer" img={BriannaKwan} url="" /> */}
+        <Profile name="Wesley Liu" role="Blue Developer" img={WesleyLiu} url="https://www.linkedin.com/in/wesley-liu-067518212/" />
+        {/* <Profile name="Seohyun (Sam) Park" role="Blue Developer" img={SamPark} url="" /> */}
+        <Profile name="Seth Sukboontip" role="Blue Developer" img={SethSukboontip} url="https://www.linkedin.com/in/seth-sukboontip/" />
+
+
+
+
+
 
         <Profile name="Seyram Agbotey" role="Mentor" img={Sey} url="https://seynhyi.github.io" />
         <Profile name="James Baker" role="Mentor" img={JamesBaker} url="https://www.linkedin.com/in/james-baker-4694b7206" />
