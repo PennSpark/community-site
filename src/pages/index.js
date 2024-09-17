@@ -22,6 +22,7 @@ import DhatriMedarametla from "../images/sp23-headshots/dhatri-medarametla.jpg"
 import EmilyKang from "../images/sp23-headshots/emily-kang.jpeg"
 import EricWang from "../images/sp23-headshots/eric-wang.jpg"
 import EricLee from "../images/sp23-headshots/eric-lee.png"
+import EricZou from "../images/sp23-headshots/eric-zou.png"
 import EthanZhao from "../images/sp23-headshots/ethan-zhao.jpg"
 import FionaHerzog from "../images/sp23-headshots/fiona-herzog.jpg"
 import FionaJiang from "../images/sp23-headshots/fiona-jiang.jpeg"
@@ -147,6 +148,11 @@ const IndexPage = () => {
         <Profile name="Ethan Zhao" role="Social Member" img={EthanZhao} url="https://ethanxyzhao.com/" />
         <Profile name="Jasper Zhu" role="Social Member" img={JasperZhu} url="https://www.linkedin.com/in/jasper-zhu-827063193" />
       
+
+
+        {/* newbies temp */}
+        <Profile name="Eric Zou" role="Red Developer" img={EricZou} url="https://ezou626.github.io" />
+
         
         {/* 
         
