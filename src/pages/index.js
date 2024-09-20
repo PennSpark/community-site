@@ -7,12 +7,14 @@ import Navbar from "../components/navbar";
 
 
 import AndreVen from "../images/headshots/andre-van-de-ven.jpg"
+import AndreiPiterbarg from "../images/headshots/andrei-piterbarg.jpg"
 import AndrewJiang from "../images/headshots/andrew-jiang.jpg"
 import AngieCao from "../images/headshots/angie-cao.jpeg"
 import AniNguyenLe from "../images/headshots/ani-nguyen-le.jpeg"
 import AnnaXia from "../images/headshots/anna-xia.jpg"
 import AprilZhang from "../images/headshots/april-zhang.jpg"
 import August from "../images/headshots/august.jpg"
+import BriannaKwan from "../images/headshots/brianna-kwan.jpg"
 import CharlesJin from "../images/headshots/charles-jin.jpeg"
 import ChelseaCheng from "../images/headshots/chelsea-cheng.jpg"
 import CindyWei from "../images/headshots/cindy-wei.jpg"
@@ -54,6 +56,7 @@ import LoriBrown from "../images/headshots/lori-brown.jpeg"
 import MarcelKida from "../images/headshots/marcel-kida.jpg"
 import MaryLiu from "../images/headshots/mary-liu.jpg"
 import MatthewDong from "../images/headshots/matthew-dong.jpg"
+import MaxdeCastro from "../images/headshots/max-de-castro.jpg"
 import MeganYang from "../images/headshots/megan-yang.jpeg"
 import MeilingMathur from "../images/headshots/meiling-mathur.jpeg"
 import MelodyZhang from "../images/headshots/melody-zhang.jpeg"
@@ -121,10 +124,10 @@ const IndexPage = () => {
 
         {/* Red Design */}
         <Profile name="Lori Brown" role="Red Designer" img={LoriBrown} url="https://www.linkedin.com/in/lori-brown-17a653248/" />
-        {/* <Profile name="Max de Castro" role="Red Designer" img={MaxdeCastro} url="" /> */}
         <Profile name="Sarah Chan" role="Red Designer" img={SarahChan} url="" />
         <Profile name="Joyce Chen" role="Red Designer/Developer" img={JoyceChen} url="https://joycezchen.myportfolio.com/work" />
         <Profile name="Raelynn Cui" role="Red Designer" img={RaelynnCui} url="" />
+        <Profile name="Max de Castro" role="Red Designer" img={MaxdeCastro} url="" />
         <Profile name="Fiona Herzog" role="Red Designer" img={FionaHerzog} url="" />
         <Profile name="Mary Liu" role="Red Designer" img={MaryLiu} url="" />
         <Profile name="Ani Nguyen Le" role="Red Designer" img={AniNguyenLe} url="https://www.linkedin.com/in/ani-nguyen-le-0788a1220" />
@@ -144,6 +147,7 @@ const IndexPage = () => {
         <Profile name="David Lee" role="Red Developer" img={DavidLee} url="" />
         <Profile name="Eric Lee" role="Red Developer" img={EricLee} url="https://www.ericslee.dev" />
         <Profile name="Michael Li" role="Red Developer" img={MichaelLi} url="https://github.com/Michaell14" />
+        <Profile name="Andrei Piterbarg" role="Red Developer" img={AndreiPiterbarg} url="https://apiterbarg.com" />
         <Profile name="Shaurya Sarma" role="Red Developer" img={ShauryaSarma} url="https://www.linkedin.com/in/shaurya-sarma/" />
         <Profile name="Sanya Shetty" role="Red Developer" img={SanyaShetty} url="https://sanyashetty.github.io/" />
         <Profile name="Term Taepaisitphongse" role="Red Developer" img={TermTaepaisitphongse} url="" />
@@ -163,7 +167,7 @@ const IndexPage = () => {
         <Profile name="Jayme Chen" role="Blue Developer" img={JaymeChen} url="" />
         <Profile name="Gia Gupta" role="Blue Developer" img={GiaGupta} url="" />
         <Profile name="Olivia Hu" role="Blue Developer" img={OliviaHu} url="https://github.com/olivianhu" />
-        {/* <Profile name="Brianna Kwan" role="Blue Developer" img={BriannaKwan} url="" /> */}
+        <Profile name="Brianna Kwan" role="Blue Developer" img={BriannaKwan} url="https://www.linkedin.com/in/brianna-kwan-929413228" />
         <Profile name="Wesley Liu" role="Blue Developer" img={WesleyLiu} url="https://www.linkedin.com/in/wesley-liu-067518212/" />
         <Profile name="Seohyun (Sam) Park" role="Blue Developer" img={SamPark} url="" />
         <Profile name="Seth Sukboontip" role="Blue Developer" img={SethSukboontip} url="https://www.linkedin.com/in/seth-sukboontip/" />
