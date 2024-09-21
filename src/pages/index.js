@@ -50,7 +50,7 @@ import KatherineYue from "../images/headshots/katherine-yue.jpeg"
 import KevinWei from "../images/headshots/kevin-wei.jpeg"
 import LucaPicazo from "../images/headshots/luca-picazo.jpeg"
 import LukaKoll from "../images/headshots/luka-koll.jpg"
-import LukeTong from "../images/headshots/luke-tong.jpg"
+import LukeTong from "../images/headshots/luke-tong.png"
 import LunaChen from "../images/headshots/luna-chen.jpeg"
 import LoriBrown from "../images/headshots/lori-brown.jpeg"
 import MarcelKida from "../images/headshots/marcel-kida.jpg"
@@ -58,7 +58,7 @@ import MaryLiu from "../images/headshots/mary-liu.jpg"
 import MatthewDong from "../images/headshots/matthew-dong.jpg"
 import MaxdeCastro from "../images/headshots/max-de-castro.jpg"
 import MeganYang from "../images/headshots/megan-yang.jpeg"
-import MeilingMathur from "../images/headshots/meiling-mathur.jpeg"
+import MeilingMathur from "../images/headshots/meiling-mathur.png"
 import MelodyZhang from "../images/headshots/melody-zhang.jpeg"
 import MichaelLi from "../images/headshots/michael-li.jpeg"
 import NakyungLee from "../images/headshots/nakyung-lee.jpg"
@@ -192,6 +192,7 @@ const IndexPage = () => {
         <Profile name="Emily Kang" role="Social Member" img={EmilyKang} url="https://www.linkedin.com/in/emily-kang-67b55b20a" />
         <Profile name="Marcel Kida" role="Social Member" img={MarcelKida} url="https://marcelkida.com/" />
         <Profile name="Na Lee" role="Social Member" img={NakyungLee} url="https://leeenk.github.io/" />
+        <Profile name="Sydney Simon" role="Social Member" img={SydneySimon} url="https://www.linkedin.com/in/sydney-simon-1468b318b/" />
         <Profile name="Tobias Nguyen" role="Social Member" img={TobiasNguyen} url="https://www.linkedin.com/mwlite/in/tung-nguyen-95195820b" />
         <Profile name="Ethan Zhao" role="Social Member" img={EthanZhao} url="https://ethanxyzhao.com/" />
         <Profile name="Jasper Zhu" role="Social Member" img={JasperZhu} url="https://www.linkedin.com/in/jasper-zhu-827063193" />
@@ -206,7 +207,7 @@ const IndexPage = () => {
         <Profile name="Dhatri Medarametla" role="Social Member" img={DhatriMedarametla} url="https://dmed31.github.io/sparkwebsite/" />
         <Profile name="Nwai Alfa" role="Social Member" img={NwaiAlfa} url="https://www.linkedin.com/in/nwai" />
         <Profile name="Rain Yan" role="Social Member" img={RainYan} url="https://github.com/xcupsilon" />
-        <Profile name="Sydney Simon" role="Social Member" img={SydneySimon} url="https://www.linkedin.com/in/sydney-simon-1468b318b/" />
+        
         <Profile name="Joyce Yoon" role="Social Member" img={JoyceYoon} url="https://www.linkedin.com/in/joyce-yoon-penn/" /> */}
 
 
