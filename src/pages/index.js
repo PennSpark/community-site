@@ -149,7 +149,6 @@ const IndexPage = () => {
         <Profile name="Michael Li" role="Red Developer" img={MichaelLi} url="https://github.com/Michaell14" />
         <Profile name="Andrei Piterbarg" role="Red Developer" img={AndreiPiterbarg} url="https://apiterbarg.com" />
         <Profile name="Shaurya Sarma" role="Red Developer" img={ShauryaSarma} url="https://www.linkedin.com/in/shaurya-sarma/" />
-        <Profile name="Sanya Shetty" role="Red Developer" img={SanyaShetty} url="https://sanyashetty.github.io/" />
         <Profile name="Term Taepaisitphongse" role="Red Developer" img={TermTaepaisitphongse} url="" />
         <Profile name="Gabriel Thiessen" role="Red Developer" img={GabrielThiessen} url="https://github.com/bingberpbuck" />
         <Profile name="Cindy Wei" role="Red Developer" img={CindyWei} url="https://www.linkedin.com/in/cindy-wei-7ba778227/" />
@@ -192,6 +191,7 @@ const IndexPage = () => {
         <Profile name="Emily Kang" role="Social Member" img={EmilyKang} url="https://www.linkedin.com/in/emily-kang-67b55b20a" />
         <Profile name="Marcel Kida" role="Social Member" img={MarcelKida} url="https://marcelkida.com/" />
         <Profile name="Na Lee" role="Social Member" img={NakyungLee} url="https://leeenk.github.io/" />
+        <Profile name="Sanya Shetty" role="Social Member" img={SanyaShetty} url="https://sanyashetty.github.io/" />
         <Profile name="Sydney Simon" role="Social Member" img={SydneySimon} url="https://www.linkedin.com/in/sydney-simon-1468b318b/" />
         <Profile name="Tobias Nguyen" role="Social Member" img={TobiasNguyen} url="https://www.linkedin.com/mwlite/in/tung-nguyen-95195820b" />
         <Profile name="Ethan Zhao" role="Social Member" img={EthanZhao} url="https://ethanxyzhao.com/" />
