@@ -47,6 +47,7 @@ import JoyceYoon from "../images/headshots/joyce-yoon.jpg"
 import JosephDattilo from "../images/headshots/joseph-dattilo.jpeg"
 import Kashyap from "../images/headshots/kashyap.jpg"
 import KatherineYue from "../images/headshots/katherine-yue.jpeg"
+import KeiTaketsuna from "../images/headshots/kei-taketsuna.jpg"
 import KevinWei from "../images/headshots/kevin-wei.jpeg"
 import LucaPicazo from "../images/headshots/luca-picazo.jpeg"
 import LukaKoll from "../images/headshots/luka-koll.jpg"
@@ -75,7 +76,7 @@ import RaphaelMartinez from "../images/headshots/raphael-martinez.png"
 import RazaqAribidesi from "../images/headshots/razaq-aribidesi.jpg"
 import RuthZhao from "../images/headshots/ruth-zhao.png"
 import RyanDeLopez from "../images/headshots/ryan-de-lopez.jpg"
-import SamPark from "../images/headshots/sam-park.jpg"
+import SamPark from "../images/headshots/sam-park.png"
 import Sey from "../images/headshots/sey.jpg"
 import SumanthKadiyala from "../images/headshots/sumanth-kadiyala.jpg"
 import SanyaShetty from "../images/headshots/sanya-shetty.jpg"
@@ -123,7 +124,6 @@ const IndexPage = () => {
         {/* PLs */}
 
         {/* Red Design */}
-        <Profile name="Lori Brown" role="Red Designer" img={LoriBrown} url="https://www.linkedin.com/in/lori-brown-17a653248/" />
         <Profile name="Sarah Chan" role="Red Designer" img={SarahChan} url="" />
         <Profile name="Joyce Chen" role="Red Designer/Developer" img={JoyceChen} url="https://joycezchen.myportfolio.com/work" />
         <Profile name="Raelynn Cui" role="Red Designer" img={RaelynnCui} url="" />
@@ -138,6 +138,7 @@ const IndexPage = () => {
         <Profile name="Yue Zhao" role="Red Designer" img={YueZhao} url="https://www.linkedin.com/in/yue-zhao-janie/" />
 
         {/* Red Dev */}
+        <Profile name="Lori Brown" role="Red Developer" img={LoriBrown} url="https://www.linkedin.com/in/lori-brown-17a653248/" />
         <Profile name="Angie Cao" role="Red Developer" img={AngieCao} url="https://www.linkedin.com/in/angelina-cao-78a0551a5" />
         <Profile name="Kashyap Chaturvedula" role="Red Developer" img={Kashyap} url="https://www.linkedin.com/in/kashyap-chaturvedula-596682162/" />
         <Profile name="Luna Chen" role="Red Developer" img={LunaChen} url="https://www.linkedin.com/in/luna-chen-9246501b0/" />
@@ -170,6 +171,7 @@ const IndexPage = () => {
         <Profile name="Wesley Liu" role="Blue Developer" img={WesleyLiu} url="https://www.linkedin.com/in/wesley-liu-067518212/" />
         <Profile name="Seohyun (Sam) Park" role="Blue Developer" img={SamPark} url="" />
         <Profile name="Seth Sukboontip" role="Blue Developer" img={SethSukboontip} url="https://www.linkedin.com/in/seth-sukboontip/" />
+        <Profile name="Kei Taketsuna" role="Blue Developer" img={KeiTaketsuna} url="https://www.linkedin.com/in/keitsuna/" />
 
         {/* Mentors */}
         <Profile name="Seyram Agbotey" role="Mentor" img={Sey} url="https://seynhyi.github.io" />
