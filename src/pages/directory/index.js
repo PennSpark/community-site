@@ -88,10 +88,11 @@ const DirectoryPage = () => {
             <span className="bold">Developers</span>:<br />
             Gabriel Thiessen, 
             Katherine Yue, 
-            Rafael Martinez, 
+            Raphael Martinez, 
             Xue Jiang, 
             David Lee, 
             Raphael Martinez
+            <br />
             <br />
             <span className="bold">Designers</span>:<br />
             Fiona Herzog, 
@@ -170,7 +171,8 @@ const DirectoryPage = () => {
             Gabriel Thiessen, 
             Kai Wang, 
             Xue Jiang, 
-            Rafael Martinez
+            Raphael Martinez
+            <br />
             <br />
             <span className="bold">Designers</span>:<br />
             Fiona Herzog, 
