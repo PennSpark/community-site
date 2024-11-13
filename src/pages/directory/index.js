@@ -33,9 +33,8 @@ const DirectoryPage = () => {
             <br />
             <span className="bold">Social Chair</span>: Luna Chen
             <br />
-            <span className="bold">Marketing Chair</span>: Joyce Chen
+            <span className="bold">Marketing and Design Chair</span>: Joyce Chen
             <br />
-            <span className="bold">Design Chair</span>: Joyce Yoon
             <br />
           </p>
         </div>
@@ -62,7 +61,7 @@ const DirectoryPage = () => {
             August Fu, 
             Emily Kang, 
             Angie Cao, 
-            Johhny Jeong, 
+            Johnny Jeong, 
             Cindy Wei, 
             Lori Brown, 
             Sumanth Kadiyala
@@ -90,13 +89,13 @@ const DirectoryPage = () => {
             Katherine Yue, 
             Raphael Martinez, 
             Xue Jiang, 
-            David Lee, 
-            Raphael Martinez
-            <br />
+            David Lee, Luna Chen
+           <br />
             <br />
             <span className="bold">Designers</span>:<br />
             Fiona Herzog, 
-            Nond Phokasub
+            Nond Phokasub, Mary Liu, Raelynn Cui
+
           </p>
         </div>
       </div>
@@ -116,7 +115,7 @@ const DirectoryPage = () => {
             <br />
             <span className="bold">VP Blue</span>: Matthew Cho, Nick Cirillo
             <br />
-            <span className="bold">Social Chairs</span>: Janice Kim, Andre van de Ven
+            <span className="bold">Social Chairs</span>: Andre van de Ven
             <br />
             <span className="bold">Design Chair</span>: Joyce Yoon
             <br />
@@ -139,7 +138,7 @@ const DirectoryPage = () => {
             Emily Kang, 
             James Baker, 
             Jasper Zhu, 
-            Johhny Jeong, 
+            Johnny Jeong, 
             Marcel Kida, 
             Ryan De Lopez, 
             Sanya Shetty, 
@@ -154,9 +153,11 @@ const DirectoryPage = () => {
             Tobias Nguyen, 
             Chelsea Cheng, 
             Christiana Guan, 
+            Claire Zhang, 
             Jasmine Wang, 
             Joyce Chen, 
             Joyce He, 
+            Sonia Tam, 
             Nwai Alfa
           </p>
         </div>
@@ -169,15 +170,14 @@ const DirectoryPage = () => {
             <span className="bold">Developers</span>:<br />
             Defne Tim, 
             Gabriel Thiessen, 
-            Kai Wang, 
-            Xue Jiang, 
+            Katherine Yue, 
+            Luna Chen, David Lee, Xue Jiang, 
             Raphael Martinez
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
             Fiona Herzog, 
-            Maliha Rahman, 
-            Nond Phokasub
+            Nond Phokasub, Mary Liu, Raelynn Cui
           </p>
         </div>
       </div>
