@@ -79,6 +79,7 @@ import RyanDeLopez from "../images/headshots/ryan-de-lopez.jpg"
 import SamPark from "../images/headshots/sam-park.png"
 import Sey from "../images/headshots/sey.jpg"
 import SumanthKadiyala from "../images/headshots/sumanth-kadiyala.jpg"
+import SurabhiSharma from "../images/headshots/surabhi-sharma.jpg"
 import SanyaShetty from "../images/headshots/sanya-shetty.jpg"
 import SarahChan from "../images/headshots/sarah-chan.png"
 import SethSukboontip from "../images/headshots/seth-sukboontip.jpg"
@@ -158,6 +159,7 @@ const IndexPage = () => {
         <Profile name="Zara Baig" role="Blue Designer" img={ZaraBaig} url="" />
         <Profile name="Nishat Olayiwola" role="Blue Designer" img={NishatOlayiwola} url="https://nishatolay.netlify.app/" />
         <Profile name="Luca Picazo" role="Blue Designer" img={LucaPicazo} url="https://lkplorenzo.wixsite.com/breakeven" />
+        <Profile name="Surabhi Sharma" role="Blue Designer" img={SurabhiSharma} url="" />
         <Profile name="Kevin Wei" role="Blue Designer" img={KevinWei} url="https://kevinwei.itch.io/" />
         <Profile name="Melody Zhang" role="Blue Designer" img={MelodyZhang} url="https://drive.google.com/drive/folders/15JxR0x9xpSuJKatoIyEU47xBR_9-ez3d" />
 
