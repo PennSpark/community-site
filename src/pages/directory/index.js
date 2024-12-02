@@ -16,6 +16,172 @@ const DirectoryPage = () => {
         <Navbar />
       </div>
       <div className="content-section">
+        <h2>Spring 2024</h2>
+        <br />
+        <div className="directory-blob">
+          <h3 className="board-title">Board</h3>
+          <p>
+            <span className="bold">Directors</span>: Haley Kang, Paul Loh
+            <br />
+            <span className="bold">VP Internal</span>: Andre van de Ven
+            <br />
+            <span className="bold">VP External</span>: Grace Thanglerdsumpan
+            <br />
+            <span className="bold">VP Red</span>: Jasper Zhu
+            <br />
+            <span className="bold">VP Blue</span>: Nick Cirillo
+            <br />
+            <span className="bold">Social Chair</span>: Luna Chen
+            <br />
+            <span className="bold">Marketing and Design Chair</span>: Joyce Chen
+            <br />
+            <br />
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="red-title">Red</h3>
+          <span className="bold">Project Leads</span>:<br />
+          Jasmine Wang, 
+          James Baker, 
+          Eric Lee, 
+          Luke Tong
+            <br />
+            <br />
+          <p>
+            <span className="bold">Developers</span>:<br />
+            Fiona Jiang, 
+            Joseph Dattilo, 
+            Charles Jin, 
+            Megan Yang, 
+            Meiling Mathur, 
+            Michael Li, 
+            August Fu, 
+            Emily Kang, 
+            Angie Cao, 
+            Johnny Jeong, 
+            Cindy Wei, 
+            Lori Brown, 
+            Sumanth Kadiyala
+            <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            Yue Zhao, 
+            Ani Nguyen Le, 
+            Namita Sajai
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="blue-title">Blue</h3>
+          <p>
+          <span className="bold">Instructors</span>:<br />
+            Barbara Seyram Nhyira Agbotey, 
+            Chelsea Cheng
+            <br />
+            <br />
+            <span className="bold">Developers</span>:<br />
+            Gabriel Thiessen, 
+            Katherine Yue, 
+            Raphael Martinez, 
+            Xue Jiang, 
+            David Lee, Luna Chen
+           <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            Fiona Herzog, 
+            Nond Phokasub, Mary Liu, Raelynn Cui
+
+          </p>
+        </div>
+      </div>
+      <div className="content-section">
+        <h2>Fall 2023</h2>
+        <br />
+        <div className="directory-blob">
+          <h3 className="board-title">Board</h3>
+          <p>
+            <span className="bold">Directors</span>: Na Kyung Lee, Haley Kang
+            <br />
+            <span className="bold">VP Internal</span>: Kashyap Chaturvedula
+            <br />
+            <span className="bold">VP External</span>: Grace Thanglerdsumpan
+            <br />
+            <span className="bold">VP Red</span>: Paul Loh
+            <br />
+            <span className="bold">VP Blue</span>: Matthew Cho, Nick Cirillo
+            <br />
+            <span className="bold">Social Chairs</span>: Andre van de Ven
+            <br />
+            <span className="bold">Design Chair</span>: Joyce Yoon
+            <br />
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="red-title">Red</h3>
+          <p>
+            <span className="bold">Developers</span>:<br />
+            Alyssa Nie, 
+            Andrew Jiang, 
+            Angie Cao, 
+            Anna Xia, 
+            August Fu, 
+            Cindy Wei, 
+            Dhatri Medarametla, 
+            Emily Kang, 
+            James Baker, 
+            Jasper Zhu, 
+            Johnny Jeong, 
+            Marcel Kida, 
+            Ryan De Lopez, 
+            Sanya Shetty, 
+            Sydney Simon
+            <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            April Zhang, 
+            Barbara Seyram Nhyira Agbotey, 
+            Isabelle Gu, 
+            Jason Saito, 
+            Tobias Nguyen, 
+            Chelsea Cheng, 
+            Christiana Guan, 
+            Claire Zhang, 
+            Jasmine Wang, 
+            Joyce Chen, 
+            Joyce He, 
+            Sonia Tam, 
+            Nwai Alfa
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="blue-title">Blue</h3>
+          <p>
+            <span className="bold">Developers</span>:<br />
+            Defne Tim, 
+            Gabriel Thiessen, 
+            Katherine Yue, 
+            Luna Chen, David Lee, Xue Jiang, 
+            Raphael Martinez
+            <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            Fiona Herzog, 
+            Nond Phokasub, Mary Liu, Raelynn Cui
+          </p>
+        </div>
+      </div>
+      <div className="content-section">
         <h2>Spring 2023</h2>
         <br />
         <div className="directory-blob">
