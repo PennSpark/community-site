@@ -114,7 +114,7 @@ const IndexPage = () => {
         {/* Board */}
         <Profile name="Nick Cirillo" role="Co-President" img={NickCirillo} url="https://www.linkedin.com/in/nicholas-cirillo-/" />
         <Profile name="Andre van de Ven" role="Co-President" img={AndreVen} url="https://www.andrevandeven.us/" />
-        <Profile name="Meiling Mathur" role="VP External & Project Lead" img={MeilingMathur} url="https://www.linkedin.com/in/meilingmathur/" />
+        <Profile name="Meiling Mathur" role="VP External & Project Lead" img={MeilingMathur} url="https://www.violinmeiling.net/" />
         <Profile name="Megan Yang" role="VP Internal" img={MeganYang} url="megyang@seas.upenn.edu" />
         <Profile name="Jasmine Wang" role="VP Red" img={JasmineWang} url="https://jasminewangux.com/" />
         <Profile name="Raphael Martinez" role="VP Blue" img={RaphaelMartinez} url="" />
