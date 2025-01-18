@@ -6,7 +6,7 @@ import Profile from "../components/profile";
 import Navbar from "../components/navbar";
 
 
-import AndreVen from "../images/headshots/andre-van-de-ven.jpg"
+import AndreVen from "../images/headshots/Andre-van-de-ven.jpg"
 import AndreiPiterbarg from "../images/headshots/andrei-piterbarg.jpg"
 import AndrewJiang from "../images/headshots/andrew-jiang.jpg"
 import AngieCao from "../images/headshots/angie-cao.jpeg"
@@ -114,7 +114,7 @@ const IndexPage = () => {
       <div id="profiles-section">
         {/* Board */}
         <Profile name="Nick Cirillo" role="Co-President" img={NickCirillo} url="https://www.linkedin.com/in/nicholas-cirillo-/" />
-        <Profile name="Andre van de Ven" role="Co-President" img={AndreVen} url="https://www.andrevandeven.us/" />
+        <Profile name="André van de Ven" role="Co-President" img={AndreVen} url="https://www.andrevandeven.us/" />
         <Profile name="Meiling Mathur" role="VP External & Project Lead" img={MeilingMathur} url="https://www.linkedin.com/in/meilingmathur/" />
         <Profile name="Megan Yang" role="VP Internal" img={MeganYang} url="megyang@seas.upenn.edu" />
         <Profile name="Jasmine Wang" role="VP Red" img={JasmineWang} url="https://jasminewangux.com/" />

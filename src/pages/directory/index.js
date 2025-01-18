@@ -16,14 +16,117 @@ const DirectoryPage = () => {
         <Navbar />
       </div>
       <div className="content-section">
+        <h2>Fall 2024</h2>
+        <br />
+
+        <div className="directory-blob">
+          <h3 className="board-title">Board</h3>
+          <p>
+            <span className="bold">Presidents</span>: Nick Cirillo, André van de Ven
+            <br />
+            <span className="bold">VP Internal</span>: Megan Yang
+            <br />
+            <span className="bold">VP External</span>: Meiling Mathur
+            <br />
+            <span className="bold">VP Red</span>: Jasmine Wang
+            <br />
+            <span className="bold">VP Blue</span>: Raphael Martinez
+            <br />
+            <span className="bold">Social Chair</span>: Luke Tong
+            <br />
+            <span className="bold">Marketing Chair</span>: Namita Sajai
+            <br />
+            <br />
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="red-title">Red</h3>
+          <span className="bold">Project Leads</span>:<br />
+          Joyce Chen,
+          Fiona Jiang,
+          Estelle Kim,
+          Michael Li,
+          Meiling Mathur,
+          Shaurya Sarma,
+          Eric Zou
+            <br />
+            <br />
+          <p>
+            <span className="bold">Developers</span>:<br />
+            Lori Brown,
+            Angie Cao,
+            Luna Chen,
+            Luka Koll,
+            David Lee,
+            Eric Lee,
+            Andrei Piterbarg,
+            Term Taepaisitphongse,
+            Gabriel Thiessen,
+            Cindy Wei,
+            Katherine Yue
+            <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            Sarah Chan,
+            Raelynn Cui,
+            Fiona Herzog,
+            Mary Liu,
+            Ani Nguyen Le,
+            Nond Phokasub,
+            Emmi Wu,
+            Ruth Zhao,
+            Yue Zhao
+          </p>
+        </div>
+
+        <div className="spacer" />
+
+        <div className="directory-blob">
+          <h3 className="blue-title">Blue</h3>
+          <p>
+          <span className="bold">Mentors</span>:<br />
+            James Baker, 
+            Grace Thanglerdsumpan,
+            April Zhang
+            <br />
+            <br />
+            <span className="bold">Developers</span>:<br />
+            Jayme Chen,
+            Gia Gupta,
+            Olivia Hu,
+            Brianna Kwan,
+            Wesley Liu,
+            Seohyun (Sam) Park,
+            Seth Sukboontip,
+            Kei Taketsuna
+           <br />
+            <br />
+            <span className="bold">Designers</span>:<br />
+            Zara Baig,
+            Nishat Olayiwola,
+            Luca Picazo,
+            Surabhi Sharma,
+            Kevin Wei,
+            Melody Zhang
+
+          </p>
+        </div>
+
+      </div>
+
+      <div className="content-section">
         <h2>Spring 2024</h2>
         <br />
+
         <div className="directory-blob">
           <h3 className="board-title">Board</h3>
           <p>
             <span className="bold">Directors</span>: Haley Kang, Paul Loh
             <br />
-            <span className="bold">VP Internal</span>: Andre van de Ven
+            <span className="bold">VP Internal</span>: André van de Ven
             <br />
             <span className="bold">VP External</span>: Grace Thanglerdsumpan
             <br />
@@ -33,7 +136,7 @@ const DirectoryPage = () => {
             <br />
             <span className="bold">Social Chair</span>: Luna Chen
             <br />
-            <span className="bold">Marketing and Design Chair</span>: Joyce Chen
+            <span className="bold">Marketing Chair</span>: Joyce Chen
             <br />
             <br />
           </p>
@@ -115,7 +218,7 @@ const DirectoryPage = () => {
             <br />
             <span className="bold">VP Blue</span>: Matthew Cho, Nick Cirillo
             <br />
-            <span className="bold">Social Chairs</span>: Andre van de Ven
+            <span className="bold">Social Chair</span>: André van de Ven
             <br />
             <span className="bold">Design Chair</span>: Joyce Yoon
             <br />
@@ -232,7 +335,7 @@ const DirectoryPage = () => {
             <br />
             <br />
             <span className="bold">Developers</span>:<br />
-            Andre van de Ven, Emily Kang, James Baker, Kai Wang, Nick Cirillo, Nicole Zhao, Razaq Aribidesi, Sanya Shetty, Sydney Simon, Zain Khan
+            André van de Ven, Emily Kang, James Baker, Kai Wang, Nick Cirillo, Nicole Zhao, Razaq Aribidesi, Sanya Shetty, Sydney Simon, Zain Khan
             <br />
             <br />
             <span className="bold">Designers</span>:<br />
@@ -448,18 +551,6 @@ const DirectoryPage = () => {
             <span className="bold">Designers</span>:<br />
             Caroline Chin, Christy Qiu, Connie Lin, Isabel An, Julia Deng,
             Juliana Lu, Karen Zheng, Kristine Lam, Vivienne Chen
-          </p>
-        </div>
-      </div>
-
-      <div className="content-section">
-        <h2>Alumni</h2>
-        <br />
-        <div className="directory-blob">
-          <h3 className="board-title">2022</h3>
-          <p>
-            Christina Lu, Emily Guo, Eric Dai, Grace Jiang, Olivia Zha
-            <br />
           </p>
         </div>
       </div>
