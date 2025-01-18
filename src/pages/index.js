@@ -6,7 +6,7 @@ import Profile from "../components/profile";
 import Navbar from "../components/navbar";
 
 
-import AndreVen from "../images/headshots/Andre-van-de-ven.jpg"
+import AndreVen from "../images/headshots/andre-van-de-ven.jpg"
 import AndreiPiterbarg from "../images/headshots/andrei-piterbarg.jpg"
 import AndrewJiang from "../images/headshots/andrew-jiang.jpg"
 import AngieCao from "../images/headshots/angie-cao.jpeg"
