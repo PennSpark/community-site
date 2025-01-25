@@ -5,16 +5,28 @@ import Layout from "../components/layout";
 import Profile from "../components/profile";
 import Navbar from "../components/navbar";
 
+import AlexanderWenig from "../images/headshots/alexander-wenig.jpg"
+import AllisonZhang from "../images/headshots/allison-zhang.jpg"
+import AlyssaNie from "../images/headshots/alyssa-nie.jpg"
 import AndreVen from "../images/headshots/andre-van-de-ven.jpg"
 import AndreiPiterbarg from "../images/headshots/andrei-piterbarg.jpg"
+import AndrewJiang from "../images/headshots/andrew-jiang.jpg"
 import AngieCao from "../images/headshots/angie-cao.jpeg"
 import AniNguyenLe from "../images/headshots/ani-nguyen-le.jpeg"
+import AnnaXia from "../images/headshots/anna-xia.jpg"
 import AprilZhang from "../images/headshots/april-zhang.jpg"
 import August from "../images/headshots/august.jpg"
 import BriannaKwan from "../images/headshots/brianna-kwan.jpg"
 import CharlesJin from "../images/headshots/charles-jin.jpeg"
+import ChelseaCheng from "../images/headshots/chelsea-cheng.jpg"
+import ChristianaGuan from "../images/headshots/christiana-guan.jpg"
 import CindyWei from "../images/headshots/cindy-wei.jpg"
+import ClaireZhang from "../images/headshots/claire-zhang.jpg"
+import ClyveGassant from "../images/headshots/clyve-gassant.jpg"
 import DavidLee from "../images/headshots/david-lee.jpeg"
+import DefneTim from "../images/headshots/defne-tim.jpg"
+import DhatriMedarametla from "../images/headshots/dhatri-medarametla.jpg"
+import ElyssaChou from "../images/headshots/elyssa.jpg"
 import EmilyKang from "../images/headshots/emily-kang.jpeg"
 import EmmiWu from "../images/headshots/emmi-wu.jpg"
 import EricWang from "../images/headshots/eric-wang.jpg"
@@ -26,14 +38,24 @@ import FionaHerzog from "../images/headshots/fiona-herzog.jpg"
 import FionaJiang from "../images/headshots/fiona-jiang.jpeg"
 import GabrielThiessen from "../images/headshots/gabriel-thiessen.jpeg"
 import GiaGupta from "../images/headshots/gia-gupta.png"
+import GraceJiang from "../images/headshots/grace-jiang.jpg"
 import GraceThang from "../images/headshots/grace-thanglerdsumpan.jpg"
+import HaleyKang from "../images/headshots/haley-kang.png"
+import IsabelleGu from "../images/headshots/isabelle-gu.jpg"
 import JamesBaker from "../images/headshots/james-baker.jpg"
+import JamesCiardullo from "../images/headshots/james-ciardullo.jpg"
+import JaniceKim from "../images/headshots/janice-kim.jpg"
 import JasmineWang from "../images/headshots/jasmine-wang.png"
+import JasonSaito from "../images/headshots/jason-saito.jpg"
 import JasperZhu from "../images/headshots/jasper-zhu.jpg"
 import JaymeChen from "../images/headshots/jayme-chen.jpeg"
+import JimmyRen from "../images/headshots/jimmy-ren.jpg"
 import JohnnyJeong from "../images/headshots/johnny-jeong.jpg"
 import JoyceChen from "../images/headshots/joyce-chen.jpeg"
+import JoyceHe from "../images/headshots/joyce-he.jpg"
+import JoyceYoon from "../images/headshots/joyce-yoon.jpg"
 import JosephDattilo from "../images/headshots/joseph-dattilo.jpeg"
+import KaiWang from "../images/headshots/kai-wang.jpg"
 import Kashyap from "../images/headshots/kashyap.jpg"
 import KatherineYue from "../images/headshots/katherine-yue.jpeg"
 import KeiTaketsuna from "../images/headshots/kei-taketsuna.jpg"
@@ -42,23 +64,33 @@ import LucaPicazo from "../images/headshots/luca-picazo.jpeg"
 import LukaKoll from "../images/headshots/luka-koll.jpg"
 import LukeTong from "../images/headshots/luke-tong.png"
 import LunaChen from "../images/headshots/luna-chen.jpeg"
+import MalihaRahman from "../images/headshots/maliha-rahman.jpg"
 import LoriBrown from "../images/headshots/lori-brown.jpeg"
 import MarcelKida from "../images/headshots/marcel-kida.jpg"
 import MaryLiu from "../images/headshots/mary-liu.jpg"
+import MatthewCho from "../images/headshots/matthew-cho.jpg"
+import MatthewDong from "../images/headshots/matthew-dong.jpg"
 import MaxdeCastro from "../images/headshots/max-de-castro.jpg"
 import MeganYang from "../images/headshots/megan-yang.jpeg"
 import MeilingMathur from "../images/headshots/meiling-mathur.png"
 import MelodyZhang from "../images/headshots/melody-zhang.jpeg"
 import MichaelLi from "../images/headshots/michael-li.jpeg"
+import MichelleGong from "../images/headshots/michelle-gong.jpg"
 import NakyungLee from "../images/headshots/nakyung-lee.jpg"
 import NickCirillo from "../images/headshots/nick-cirillo.png"
+import NicoleZhao from "../images/headshots/nicole-zhao.jpg"
 import NondPhokasub from "../images/headshots/nond-phokasub.jpg"
+import NwaiAlfa from "../images/headshots/nwai-alfa.jpg"
 import NamitaSajai from "../images/headshots/namita-sajai.jpeg"
 import NishatOlayiwola from "../images/headshots/nishat-olayiwola.jpg"
 import OliviaHu from "../images/headshots/olivia-hu.jpg"
+import OliviaZha from "../images/headshots/olivia-zha.jpg"
 import PaulLoh from "../images/headshots/paul-loh.jpg"
+import PraneelChakraborty from "../images/headshots/praneel.jpg"
 import RaelynnCui from "../images/headshots/raelynn-cui.jpg"
+import RainYan from "../images/headshots/rain-yan.jpg"
 import RaphaelMartinez from "../images/headshots/raphael-martinez.png"
+import RazaqAribidesi from "../images/headshots/razaq-aribidesi.jpg"
 import RuthZhao from "../images/headshots/ruth-zhao.png"
 import RyanDeLopez from "../images/headshots/ryan-de-lopez.jpg"
 import SamPark from "../images/headshots/sam-park.png"
@@ -69,6 +101,7 @@ import SanyaShetty from "../images/headshots/sanya-shetty.jpg"
 import SarahChan from "../images/headshots/sarah-chan.png"
 import SethSukboontip from "../images/headshots/seth-sukboontip.jpg"
 import ShauryaSarma from "../images/headshots/shaurya-sarma.jpg"
+import SubinKim from "../images/headshots/subin-kim.jpg"
 import SydneySimon from "../images/headshots/sydney-simon.jpg"
 import TermTaepaisitphongse from "../images/headshots/term-taepaisitphongse.jpg" 
 import TobiasNguyen from "../images/headshots/tobias-nguyen.jpg"
@@ -76,6 +109,8 @@ import WesleyLiu from "../images/headshots/wesley-liu.jpg"
 import XueJiang from "../images/headshots/xue-jiang.jpg"
 import YuhanLiu from "../images/headshots/yuhan-liu.jpg"
 import YueZhao from "../images/headshots/yue-zhao.jpeg"
+import YuniKim from "../images/headshots/yuni-kim.jpg"
+import ZainKhan from "../images/headshots/zain-khan.jpg"
 import ZaraBaig from "../images/headshots/zara-baig.jpeg"
 
 
@@ -93,7 +128,7 @@ const IndexPage = () => {
       </div>
 
       <div className="content-section" style={{ marginBottom: "0px" }}>
-        <h2>Spring 2025 Directory</h2>
+        <h2>Members</h2>
       </div>
 
       <div id="profiles-section">
@@ -206,6 +241,7 @@ const IndexPage = () => {
         <Profile name="Andrei Piterbarg" role="Social Member" img={AndreiPiterbarg} url="https://apiterbarg.com" />
         <Profile name="Gabriel Thiessen" role="Social Member" img={GabrielThiessen} url="https://github.com/bingberpbuck" />
         <Profile name="Yue Zhao" role="Social Member" img={YueZhao} url="https://www.linkedin.com/in/yue-zhao-janie/" />
+        <Profile name="Jasper Zhu" role="Spark Bang Bang Coordinator" img={JasperZhu} url="https://www.linkedin.com/in/jasper-zhu-827063193" />
       </div>
 
       <div id="profiles-section">
@@ -213,23 +249,71 @@ const IndexPage = () => {
           <h3>Alumni</h3>
         </div>
 
-        {/* Retired Members */}
-        <Profile name="Seyram Agbotey" role="Alumni" img={Sey} url="https://seynhyi.github.io" />
-        <Profile name="Ryan De Lopez" role="Alumni" img={RyanDeLopez} url="https://www.linkedin.com/in/vrdelopez/" />
-        <Profile name="August Fu" role="Alumni" img={August} url="https://www.linkedin.com/in/august-fu" />
-        <Profile name="Sumanth Kadiyala" role="Alumni" img={SumanthKadiyala} url="https://www.linkedin.com/in/sumanthkadiyala/" />
-        <Profile name="Marcel Kida" role="Alumni" img={MarcelKida} url="https://marcelkida.com/" />
-        <Profile name="Na Lee" role="Alumni" img={NakyungLee} url="https://leeenk.github.io/" />
-        <Profile name="Paul Loh" role="Alumni" img={PaulLoh} url="https://lohpaul9.github.io/" />
-        <Profile name="Yuhan Liu" role="Alumni" img={YuhanLiu} url="https://yuhanliu-tech.github.io/" />
-        <Profile name="Namita Sajai" role="Alumni" img={NamitaSajai} url="https://namitasajai.github.io/finalportfolio/index.html" />
-        <Profile name="Sanya Shetty" role="Alumni" img={SanyaShetty} url="https://sanyashetty.github.io/" />
-        <Profile name="Sydney Simon" role="Alumni" img={SydneySimon} url="https://www.linkedin.com/in/sydney-simon-1468b318b/" />
-        <Profile name="Grace Thanglerdsumpan" role="Alumni" img={GraceThang} url="https://www.linkedin.com/in/chanya-thanglerdsumpan/" />
-        <Profile name="Tobias Nguyen" role="Alumni" img={TobiasNguyen} url="https://www.linkedin.com/mwlite/in/tung-nguyen-95195820b" />
-        <Profile name="Eric Wang" role="Alumni" img={EricWang} url="https://etnwang.github.io/" />
-        <Profile name="Ethan Zhao" role="Alumni" img={EthanZhao} url="https://ethanxyzhao.com/" />
-        <Profile name="Jasper Zhu" role="Spark Bang Bang Coordinator" img={JasperZhu} url="https://www.linkedin.com/in/jasper-zhu-827063193" />
+        {/* Alumni */}
+        <Profile name="Seyram Agbotey" role="Alum" img={Sey} url="https://seynhyi.github.io" />
+        <Profile name="Nwai Alfa" role="Alum" img={NwaiAlfa} url="" />
+        <Profile name="Razaq Aribidesi" role="Alum" img={RazaqAribidesi} url="" />
+        <Profile name="Praneel Chakraborty" role="Alum" img={PraneelChakraborty} url="" />
+        <Profile name="Chelsea Cheng" role="Alum" img={ChelseaCheng} url="" />
+        <Profile name="Matthew Cho" role="Alum" img={MatthewCho} url="" />
+        <Profile name="Elyssa Chou" role="Founding Alum" img={ElyssaChou} url="" />
+        <Profile name="James Ciardullo" role="Alum" img={JamesCiardullo} url="" />
+        <Profile name="Ryan De Lopez" role="Alum" img={RyanDeLopez} url="https://www.linkedin.com/in/vrdelopez/" />
+        <Profile name="Matthew Dong" role="Alum" img={MatthewDong} url="" />
+        <Profile name="August Fu" role="Alum" img={August} url="https://www.linkedin.com/in/august-fu" />
+        <Profile name="Clyve Gassant" role="Alum" img={ClyveGassant} url="" />
+        <Profile name="Michelle Gong" role="Alum" img={MichelleGong} url="" />
+        <Profile name="Isabelle Gu" role="Alum" img={IsabelleGu} url="" />
+        <Profile name="Christiana Guan" role="Alum" img={ChristianaGuan} url="" />
+        <Profile name="Joyce He" role="Alum" img={JoyceHe} url="" />
+        <Profile name="Andrew Jiang" role="Alum" img={AndrewJiang} url="" />
+        <Profile name="Grace Jiang" role="Spark Co-Founder" img={GraceJiang} url="" />
+        <Profile name="Sumanth Kadiyala" role="Alum" img={SumanthKadiyala} url="https://www.linkedin.com/in/sumanthkadiyala/" />
+        <Profile name="Haley Kang" role="Alum" img={HaleyKang} url="" />
+        <Profile name="Zain Khan" role="Alum" img={ZainKhan} url="" />
+        <Profile name="Marcel Kida" role="Alum" img={MarcelKida} url="https://marcelkida.com/" />
+        <Profile name="Janice Kim" role="Founding Alum" img={JaniceKim} url="" />
+        <Profile name="Subin Kim" role="Founding Alum" img={SubinKim} url="" />
+        <Profile name="Yuni Kim" role="Alum" img={YuniKim} url="" />
+        <Profile name="Na Lee" role="Alum" img={NakyungLee} url="https://leeenk.github.io/" />
+        <Profile name="Paul Loh" role="Alum" img={PaulLoh} url="https://lohpaul9.github.io/" />
+        <Profile name="Yuhan Liu" role="Alum" img={YuhanLiu} url="https://yuhanliu-tech.github.io/" />
+        <Profile name="Dhatri Medarametla" role="Alum" img={DhatriMedarametla} url="" />
+        <Profile name="Alyssa Nie" role="Alum" img={AlyssaNie} url="" />
+        <Profile name="Maliha Rahman" role="Alum" img={MalihaRahman} url="" />
+        <Profile name="Jimmy Ren" role="Founding Alum" img={JimmyRen} url="" />
+        <Profile name="Jason Saito" role="Alum" img={JasonSaito} url="" />
+        <Profile name="Namita Sajai" role="Alum" img={NamitaSajai} url="https://namitasajai.github.io/finalportfolio/index.html" />
+        <Profile name="Sanya Shetty" role="Alum" img={SanyaShetty} url="https://sanyashetty.github.io/" />
+        <Profile name="Sydney Simon" role="Alum" img={SydneySimon} url="https://www.linkedin.com/in/sydney-simon-1468b318b/" />
+        <Profile name="Grace Thanglerdsumpan" role="Alum" img={GraceThang} url="https://www.linkedin.com/in/chanya-thanglerdsumpan/" />
+        <Profile name="Defne Tim" role="Alum" img={DefneTim} url="" />
+        <Profile name="Tobias Nguyen" role="Alum" img={TobiasNguyen} url="https://www.linkedin.com/mwlite/in/tung-nguyen-95195820b" />
+        <Profile name="Eric Wang" role="Alum" img={EricWang} url="https://etnwang.github.io/" />
+        <Profile name="Kai Wang" role="Alum" img={KaiWang} url="" />
+        <Profile name="Alexander Wenig" role="Alum" img={AlexanderWenig} url="" />
+        <Profile name="Anna Xia" role="Alum" img={AnnaXia} url="" />
+        <Profile name="Rain Yan" role="Alum" img={RainYan} url="" />
+        <Profile name="Joyce Yoon" role="Alum" img={JoyceYoon} url="" />
+        <Profile name="Olivia Zha" role="Spark Co-Founder" img={OliviaZha} url="" />
+        <Profile name="Allison Zhang" role="Alum" img={AllisonZhang} url="" />
+        <Profile name="Claire Zhang" role="Alum" img={ClaireZhang} url="" />
+        <Profile name="Ethan Zhao" role="Alum" img={EthanZhao} url="https://ethanxyzhao.com/" />
+        <Profile name="Nicole Zhao" role="Alum" img={NicoleZhao} url="" />
+
+        <p style={{ marginBottom: "64px" }}>Alumni not pictured: Brandon Adiele*, Isabel An*, Norman Chen*, Vivienne Chen*, Charles Cheng*, Olivia Cheng*, Caroline Chin*, 
+          Logan Cho*, Acelyn Choi*, Julia Deng*, Bryan Denq*, Elaine Fan*, 
+          Janna Goliff*, Aditya Gupta*, Leon Hertzberg*, Egret Jin*, Tinatin Kokoshvili*, Vishaal Kumar*, 
+          Ahmed Laban*, Kristine Lam*, Seiyon Lee, Jiacheng Li, Will Liang, Connie Lin*, Christina Lu*, Juliana Lu*, Linda Lu*, Arush Mehrotra, Aryan Nagariya*, 
+          Christy Qiu*, Akshay Sharma*, Joochan Shin*, Aarushi Singh*, Lindsay Smith*,
+          Arushi Srivastava*, Homer Wang,
+          Shelly Wu*, Wendy Wu*, Maggie Yu*, Andrew Zhang*, David Zhang*, Helena Zhang*, Alexander Zheng, Karen Zheng*, Kevin Zhou
+
+          <br />
+          <br />
+
+          *Founding member of Penn Creative Labs (the previous name of Spark)
+          </p>
       </div>
     </Layout>
   );
