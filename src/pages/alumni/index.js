@@ -127,7 +127,7 @@ const IndexPage = () => {
         <Profile name="Nicole Zhao" role="Alum" img={NicoleZhao} url="" />
 
         <p style={{ marginBottom: "64px" }}>Alumni not pictured: Brandon Adiele*, Isabel An*, Norman Chen*, Vivienne Chen*, Charles Cheng*, Olivia Cheng*, Caroline Chin*, 
-          Logan Cho*, Acelyn Choi*, Julia Deng*, Bryan Denq*, Elaine Fan*, 
+          Logan Cho*, Acelyn Choi*, Eric Dai, Julia Deng*, Bryan Denq*, Elaine Fan*, 
           Janna Goliff*, Aditya Gupta*, Leon Hertzberg*, Egret Jin*, Tinatin Kokoshvili*, Vishaal Kumar*, 
           Ahmed Laban*, Kristine Lam*, Seiyon Lee, Jiacheng Li, Will Liang, Connie Lin*, Christina Lu*, Juliana Lu*, Linda Lu*, Arush Mehrotra, Aryan Nagariya*, 
           Christy Qiu*, Myka Salvacion, Akshay Sharma*, Joochan Shin*, Aarushi Singh*, Lindsay Smith*,

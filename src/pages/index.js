@@ -92,7 +92,7 @@ const IndexPage = () => {
         <Profile name="Jasmine Wang" role="VP Red" img={JasmineWang} url="https://jasminewangux.com/" />
         <Profile name="Raphael Martinez" role="VP Blue" img={RaphaelMartinez} url="" />
         <Profile name="Luke Tong" role="Social Chair & Mentor" img={LukeTong} url="https://www.linkedin.com/in/luke-rt/" />
-        <Profile name="Emmi Wu" role="Marketing Chair" img={EmmiWu} url="" />
+        <Profile name="Emmi Wu" role="Marketing Chair & Project Lead" img={EmmiWu} url="" />
       </div>
 
       <div id="profiles-section">
@@ -100,6 +100,10 @@ const IndexPage = () => {
           <h3>Project Leads</h3>
         </div>
         {/* PLs */}
+        <Profile name="Angie Cao" role="Project Lead" img={AngieCao} url="https://www.linkedin.com/in/angelina-cao-78a0551a5" />
+        <Profile name="Luna Chen" role="Project Lead" img={LunaChen} url="https://www.linkedin.com/in/luna-chen-9246501b0/" />
+        <Profile name="Joseph Dattilo" role="Red Developer" img={JosephDattilo} url="https://www.linkedin.com/in/joe-dattilo/" />
+        <Profile name="Shaurya Sarma" role="Project Lead" img={ShauryaSarma} url="https://www.linkedin.com/in/shaurya-sarma/" />
         <Profile name="April Zhang" role="Project Lead" img={AprilZhang} url="" />
       </div>
 
@@ -121,19 +125,16 @@ const IndexPage = () => {
           <h3>Spark Red Developers</h3>
         </div>
         {/* Red Dev */}
-        <Profile name="Angie Cao" role="Red Developer" img={AngieCao} url="https://www.linkedin.com/in/angelina-cao-78a0551a5" />
+        <Profile name="Lori Brown" role="Red Developer" img={LoriBrown} url="https://www.linkedin.com/in/lori-brown-17a653248/" />
         <Profile name="Kashyap Chaturvedula" role="Red Developer" img={Kashyap} url="https://www.linkedin.com/in/kashyap-chaturvedula-596682162/" />
         <Profile name="Joyce Chen" role="Red Developer" img={JoyceChen} url="https://joycezchen.myportfolio.com/work" />
-        <Profile name="Luna Chen" role="Red Developer" img={LunaChen} url="https://www.linkedin.com/in/luna-chen-9246501b0/" />
-        <Profile name="Joseph Dattilo" role="Red Developer" img={JosephDattilo} url="https://www.linkedin.com/in/joe-dattilo/" />
         <Profile name="Johnny Jeong" role="Red Developer" img={JohnnyJeong} url="https://www.linkedin.com/in/jaeheon-jeong-ab0761223" />
         <Profile name="Fiona Jiang" role="Red Developer" img={FionaJiang} url="http://linkedin.com/in/fiona-jiang-62b6a31b2" />
         <Profile name="Xue Jiang" role="Red Developer" img={XueJiang} url="https://xue-portfolio.vercel.app/" />
-        <Profile name="Sumanth Kadiyala" role="Alum" img={SumanthKadiyala} url="https://www.linkedin.com/in/sumanthkadiyala/" />
+        <Profile name="Sumanth Kadiyala" role="Red Developer" img={SumanthKadiyala} url="https://www.linkedin.com/in/sumanthkadiyala/" />
         <Profile name="Estelle Kim" role="Red Developer" img={EstelleKim} url="https://www.linkedin.com/in/estelle-kim-41b1b7218/" />
         <Profile name="Luka Koll" role="Red Developer" img={LukaKoll} url="https://www.linkedin.com/in/luka-koll-704715274/" />
         <Profile name="David Lee" role="Red Developer" img={DavidLee} url="" />
-        <Profile name="Shaurya Sarma" role="Red Developer" img={ShauryaSarma} url="https://www.linkedin.com/in/shaurya-sarma/" />
         <Profile name="Term Taepaisitphongse" role="Red Developer" img={TermTaepaisitphongse} url="" />
         <Profile name="Cindy Wei" role="Red Developer" img={CindyWei} url="https://www.linkedin.com/in/cindy-wei-7ba778227/" />
         <Profile name="Katherine Yue" role="Red Developer" img={KatherineYue} url="https://www.linkedin.com/in/katherine-yue/" />
@@ -181,7 +182,6 @@ const IndexPage = () => {
           <h3>Social Members</h3>
         </div>
         {/* Social Members */}
-        <Profile name="Lori Brown" role="Social Member" img={LoriBrown} url="https://www.linkedin.com/in/lori-brown-17a653248/" />
         <Profile name="Fiona Herzog" role="Social Member" img={FionaHerzog} url="" />
         {/* <Profile name="Charles Jin" role="Retired Member" img={CharlesJin} url="https://www.linkedin.com/in/chenxi-charles-jin" /> */}
         <Profile name="Emily Kang" role="Social Member" img={EmilyKang} url="https://www.linkedin.com/in/emily-kang-67b55b20a" />
