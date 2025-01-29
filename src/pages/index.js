@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 import Profile from "../components/profile";
 import Navbar from "../components/navbar";
 
-import AndreVen from "../images/headshots/andre-van-de-ven.jpg"
+import AndreVanDeVen from "../images/headshots/andre-van-de-ven.jpg"
 import AndreiPiterbarg from "../images/headshots/andrei-piterbarg.jpg"
 import AngieCao from "../images/headshots/angie-cao.jpeg"
 import AniNguyenLe from "../images/headshots/ani-nguyen-le.jpeg"
@@ -35,7 +35,7 @@ import KeiTaketsuna from "../images/headshots/kei-taketsuna.jpg"
 import KevinWei from "../images/headshots/kevin-wei.jpeg"
 import LucaPicazo from "../images/headshots/luca-picazo.jpeg"
 import LukaKoll from "../images/headshots/luka-koll.jpg"
-import LukeTong from "../images/headshots/luke-tong.png"
+import LukeTong from "../images/headshots/luke-tong.jpg"
 import LunaChen from "../images/headshots/luna-chen.jpeg"
 import LoriBrown from "../images/headshots/lori-brown.jpeg"
 import MaryLiu from "../images/headshots/mary-liu.jpg"
@@ -86,7 +86,7 @@ const IndexPage = () => {
         </div>
         {/* Board */}
         <Profile name="Nick Cirillo" role="Co-President & Project Lead" img={NickCirillo} url="https://www.linkedin.com/in/nicholas-cirillo-/" />
-        <Profile name="André van de Ven" role="Co-President" img={AndreVen} url="https://www.andrevandeven.us/" />
+        <Profile name="André van de Ven" role="Co-President" img={AndreVanDeVen} url="https://www.andrevandeven.us/" />
         <Profile name="Meiling Mathur" role="VP External" img={MeilingMathur} url="https://www.linkedin.com/in/meilingmathur/" />
         <Profile name="Megan Yang" role="VP Internal" img={MeganYang} url="megyang@seas.upenn.edu" />
         <Profile name="Jasmine Wang" role="VP Red" img={JasmineWang} url="https://jasminewangux.com/" />

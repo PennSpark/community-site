@@ -131,7 +131,7 @@ const IndexPage = () => {
           Janna Goliff*, Aditya Gupta*, Leon Hertzberg*, Egret Jin*, Tinatin Kokoshvili*, Vishaal Kumar*, 
           Ahmed Laban*, Kristine Lam*, Seiyon Lee, Jiacheng Li, Will Liang, Connie Lin*, Christina Lu*, Juliana Lu*, Linda Lu*, Arush Mehrotra, Aryan Nagariya*, 
           Christy Qiu*, Myka Salvacion, Akshay Sharma*, Joochan Shin*, Aarushi Singh*, Lindsay Smith*,
-          Arushi Srivastava*, Homer Wang,
+          Arushi Srivastava*, Sonia Tam, Homer Wang,
           Shelly Wu*, Wendy Wu*, Maggie Yu*, Andrew Zhang*, David Zhang*, Helena Zhang*, Alexander Zheng, Karen Zheng*, Kevin Zhou
 
           <br />
