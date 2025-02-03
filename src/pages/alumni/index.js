@@ -10,6 +10,7 @@ import AllisonZhang from "../../images/headshots/allison-zhang.jpg"
 import AlyssaNie from "../../images/headshots/alyssa-nie.jpg"
 import AndrewJiang from "../../images/headshots/andrew-jiang.jpg"
 import AnnaXia from "../../images/headshots/anna-xia.jpg"
+import CharlesJin from "../../images/headshots/charles-jin.jpg"
 import August from "../../images/headshots/august.jpg"
 import ChelseaCheng from "../../images/headshots/chelsea-cheng.jpg"
 import ChristianaGuan from "../../images/headshots/christiana-guan.jpg"
@@ -70,79 +71,91 @@ const IndexPage = () => {
       </div>
 
       <div className="content-section" style={{ marginBottom: "10px" }}>
-        <h2>Alumni</h2>
+        <h2>Former Members</h2>
+      </div>
+      
+      <div id="profiles-section">
+        <div className="content-section" style={{ marginBottom: "10px" }}>
+          <h3>Co-Founders</h3>
+        </div>
+
+        <Profile name="Grace 'grac' Jiang" role="Spark Co-Founder" img={GraceJiang} url="" />
+        <Profile name="Olivia 'oz' Zha" role="Spark Co-Founder" img={OliviaZha} url="" />
+        
       </div>
 
       <div id="profiles-section">
+      <div className="content-section" style={{ marginBottom: "10px" }}>
+          <h3>Former Members</h3>
+        </div>
 
-        {/* Alumni */}
-        <Profile name="Seyram Agbotey" role="Alum" img={Sey} url="https://seynhyi.github.io" />
-        <Profile name="Nwai Alfa" role="Alum" img={NwaiAlfa} url="" />
-        <Profile name="Razaq Aribidesi" role="Alum" img={RazaqAribidesi} url="" />
-        <Profile name="Praneel Chakraborty" role="Alum" img={PraneelChakraborty} url="" />
-        <Profile name="Chelsea Cheng" role="Alum" img={ChelseaCheng} url="" />
-        <Profile name="Matthew Cho" role="Alum" img={MatthewCho} url="" />
-        <Profile name="Elyssa Chou" role="Founding Alum" img={ElyssaChou} url="" />
-        <Profile name="James Ciardullo" role="Alum" img={JamesCiardullo} url="" />
-        <Profile name="Ryan De Lopez" role="Alum" img={RyanDeLopez} url="https://www.linkedin.com/in/vrdelopez/" />
-        <Profile name="Matthew Dong" role="Alum" img={MatthewDong} url="" />
-        <Profile name="August Fu" role="Alum" img={August} url="https://www.linkedin.com/in/august-fu" />
-        <Profile name="Clyve Gassant" role="Alum" img={ClyveGassant} url="" />
-        <Profile name="Michelle Gong" role="Alum" img={MichelleGong} url="" />
-        <Profile name="Isabelle Gu" role="Alum" img={IsabelleGu} url="" />
-        <Profile name="Christiana Guan" role="Alum" img={ChristianaGuan} url="" />
-        <Profile name="Joyce He" role="Alum" img={JoyceHe} url="" />
-        <Profile name="Andrew Jiang" role="Alum" img={AndrewJiang} url="" />
-        <Profile name="Grace Jiang" role="Spark Co-Founder" img={GraceJiang} url="" />
-        <Profile name="Haley Kang" role="Alum" img={HaleyKang} url="" />
-        <Profile name="Zain Khan" role="Alum" img={ZainKhan} url="" />
-        <Profile name="Marcel Kida" role="Alum" img={MarcelKida} url="https://marcelkida.com/" />
-        <Profile name="Janice Kim" role="Founding Alum" img={JaniceKim} url="" />
-        <Profile name="Subin Kim" role="Founding Alum" img={SubinKim} url="" />
-        <Profile name="Yuni Kim" role="Alum" img={YuniKim} url="" />
-        <Profile name="Na Lee" role="Alum" img={NakyungLee} url="https://leeenk.github.io/" />
-        <Profile name="Paul Loh" role="Alum" img={PaulLoh} url="https://lohpaul9.github.io/" />
-        <Profile name="Yuhan Liu" role="Alum" img={YuhanLiu} url="https://yuhanliu-tech.github.io/" />
-        <Profile name="Dhatri Medarametla" role="Alum" img={DhatriMedarametla} url="" />
-        <Profile name="Alyssa Nie" role="Alum" img={AlyssaNie} url="" />
-        <Profile name="Maliha Rahman" role="Alum" img={MalihaRahman} url="" />
-        <Profile name="Jimmy Ren" role="Founding Alum" img={JimmyRen} url="" />
-        <Profile name="Jason Saito" role="Alum" img={JasonSaito} url="" />
-        <Profile name="Namita Sajai" role="Alum" img={NamitaSajai} url="https://namitasajai.github.io/finalportfolio/index.html" />
-        <Profile name="Sanya Shetty" role="Alum" img={SanyaShetty} url="https://sanyashetty.github.io/" />
-        <Profile name="Sydney Simon" role="Alum" img={SydneySimon} url="https://www.linkedin.com/in/sydney-simon-1468b318b/" />
-        <Profile name="Grace Thanglerdsumpan" role="Alum" img={GraceThang} url="https://www.linkedin.com/in/chanya-thanglerdsumpan/" />
-        <Profile name="Defne Tim" role="Alum" img={DefneTim} url="" />
-        <Profile name="Tobias Nguyen" role="Alum" img={TobiasNguyen} url="https://www.linkedin.com/mwlite/in/tung-nguyen-95195820b" />
-        <Profile name="Eric Wang" role="Alum" img={EricWang} url="https://etnwang.github.io/" />
-        <Profile name="Kai Wang" role="Alum" img={KaiWang} url="" />
-        <Profile name="Alexander Wenig" role="Alum" img={AlexanderWenig} url="" />
-        <Profile name="Anna Xia" role="Alum" img={AnnaXia} url="" />
-        <Profile name="Rain Yan" role="Alum" img={RainYan} url="" />
-        <Profile name="Joyce Yoon" role="Alum" img={JoyceYoon} url="" />
-        <Profile name="Olivia Zha" role="Spark Co-Founder" img={OliviaZha} url="" />
-        <Profile name="Allison Zhang" role="Alum" img={AllisonZhang} url="" />
-        <Profile name="Claire Zhang" role="Alum" img={ClaireZhang} url="" />
-        <Profile name="Ethan Zhao" role="Alum" img={EthanZhao} url="https://ethanxyzhao.com/" />
-        <Profile name="Nicole Zhao" role="Alum" img={NicoleZhao} url="" />
+        {/* Former Members */}
+        <Profile name="Seyram Agbotey" role="Instructor, Red Designer" img={Sey} url="https://seynhyi.github.io" />
+        <Profile name="Nwai Alfa" role="Blue Developer" img={NwaiAlfa} url="" />
+        <Profile name="Razaq Aribidesi" role="Blue Developer" img={RazaqAribidesi} url="" />
+        <Profile name="Praneel Chakraborty" role="Red Developer" img={PraneelChakraborty} url="" />
+        <Profile name="Chelsea Cheng" role="Project Lead, Instructor, Red Developer" img={ChelseaCheng} url="" />
+        <Profile name="Matthew Cho" role="VP Blue, Red Developer" img={MatthewCho} url="" />
+        <Profile name="Elyssa Chou" role="VP Blue, Project Lead,  Instructor" img={ElyssaChou} url="" />
+        <Profile name="James Ciardullo" role="Red Developer" img={JamesCiardullo} url="" />
+        <Profile name="Ryan De Lopez" role="Red Developer" img={RyanDeLopez} url="https://www.linkedin.com/in/vrdelopez/" />
+        <Profile name="Matthew Dong" role="Instructor, Blue Designer" img={MatthewDong} url="" />
+        <Profile name="August Fu" role="Red Developer" img={August} url="https://www.linkedin.com/in/august-fu" />
+        <Profile name="Clyve Gassant" role="Blue Developer" img={ClyveGassant} url="" />
+        <Profile name="Michelle Gong" role="Red Designer" img={MichelleGong} url="" />
+        <Profile name="Isabelle Gu" role="Blue Designer" img={IsabelleGu} url="" />
+        <Profile name="Christiana Guan" role="Instructor, Red Designer" img={ChristianaGuan} url="" />
+        <Profile name="Joyce He" role="Instructor, Red Designer" img={JoyceHe} url="" />
+        <Profile name="Andrew Jiang" role="Co-President, Project Lead, Red Developer" img={AndrewJiang} url="" />
+        <Profile name="Charles Jin" role="Red Developer" img={CharlesJin} url="" />
+        <Profile name="Haley Kang" role="Co-President, Social Chair, Red Developer, " img={HaleyKang} url="" />
+        <Profile name="Zain Khan" role="Blue Developer" img={ZainKhan} url="" />
+        <Profile name="Marcel Kida" role="Project Lead, Red Developer / Designer" img={MarcelKida} url="https://marcelkida.com/" />
+        <Profile name="Janice Kim" role="VP External, Instructor, Design Lead, Red Designer" img={JaniceKim} url="" />
+        <Profile name="Subin Kim" role="VP Red, Project Lead, Red Developer" img={SubinKim} url="" />
+        <Profile name="Yuni Kim" role="Former Member" img={YuniKim} url="" />
+        <Profile name="Na Lee" role="Co-President, VP Blue, Blue Developer" img={NakyungLee} url="https://leeenk.github.io/" />
+        <Profile name="Paul Loh" role="Co-President, VP Red, Project Lead, Instructor, Red Developer / Designer, Blue Designer" img={PaulLoh} url="https://lohpaul9.github.io/" />
+        <Profile name="Yuhan Liu" role="VP Blue, Project Lead, Instructor, Red Developer, Blue Developer" img={YuhanLiu} url="https://yuhanliu-tech.github.io/" />
+        <Profile name="Dhatri Medarametla" role="Red Developer, Blue Developer" img={DhatriMedarametla} url="" />
+        <Profile name="Alyssa Nie" role="Instructor, Red Developer, Blue Developer" img={AlyssaNie} url="" />
+        <Profile name="Maliha Rahman" role="Blue Designer" img={MalihaRahman} url="" />
+        <Profile name="Jimmy Ren" role="Co-President, Instructor, VP Internal, Red Developer" img={JimmyRen} url="" />
+        <Profile name="Jason Saito" role="Red Designer, Blue Designer" img={JasonSaito} url="" />
+        <Profile name="Namita Sajai" role="Marketing Chair, Red Designer" img={NamitaSajai} url="https://namitasajai.github.io/finalportfolio/index.html" />
+        <Profile name="Sanya Shetty" role="Red Developer, Blue Developer" img={SanyaShetty} url="https://sanyashetty.github.io/" />
+        <Profile name="Sydney Simon" role="Red Developer, Blue Developer" img={SydneySimon} url="https://www.linkedin.com/in/sydney-simon-1468b318b/" />
+        <Profile name="Grace Thanglerdsumpan" role="VP External, Instructor, Red Designer" img={GraceThang} url="https://www.linkedin.com/in/chanya-thanglerdsumpan/" />
+        <Profile name="Defne Tim" role="Blue Developer" img={DefneTim} url="" />
+        <Profile name="Tobias Nguyen" role="Red Designer, Blue Designer" img={TobiasNguyen} url="https://www.linkedin.com/mwlite/in/tung-nguyen-95195820b" />
+        <Profile name="Eric Wang" role="Instructor, Red Developer" img={EricWang} url="https://etnwang.github.io/" />
+        <Profile name="Kai Wang" role="Blue Developer" img={KaiWang} url="" />
+        <Profile name="Alexander Wenig" role="Red Developer" img={AlexanderWenig} url="" />
+        <Profile name="Anna Xia" role="VP Internal, Project Lead, Instructor, Red Developer" img={AnnaXia} url="" />
+        <Profile name="Rain Yan" role="Red Developer, Blue Designer" img={RainYan} url="" />
+        <Profile name="Joyce Yoon" role="Marketing Chair, Red Designer" img={JoyceYoon} url="" />
+        <Profile name="Allison Zhang" role="Red Designer, Blue Developer / Designer" img={AllisonZhang} url="" />
+        <Profile name="Claire Zhang" role="Marketing Chair, Red Developer / Designer, Blue Developer" img={ClaireZhang} url="" />
+        <Profile name="Ethan Zhao" role="VP Internal, Project Lead, Blue Developer" img={EthanZhao} url="https://ethanxyzhao.com/" />
+        <Profile name="Nicole Zhao" role="Blue Developer" img={NicoleZhao} url="" />
 
-        <p style={{ marginBottom: "64px" }}>Alumni not pictured: Brandon Adiele*, Isabel An*, Norman Chen*, Vivienne Chen*, Charles Cheng*, Olivia Cheng*, Caroline Chin*, 
+        <p style={{ marginBottom: "64px" }}>Former members not pictured: Brandon Adiele*, Isabel An*, Anna Baringer, Norman Chen*, Vivienne Chen*, Charles Cheng*, Olivia Cheng*, Caroline Chin*, 
           Logan Cho*, Acelyn Choi*, Eric Dai, Julia Deng*, Bryan Denq*, Elaine Fan*, 
           Janna Goliff*, Aditya Gupta*, Leon Hertzberg*, Egret Jin*, Tinatin Kokoshvili*, Vishaal Kumar*, 
           Ahmed Laban*, Kristine Lam*, Seiyon Lee, Jiacheng Li, Will Liang, Connie Lin*, Christina Lu*, Juliana Lu*, Linda Lu*, Arush Mehrotra, Aryan Nagariya*, 
-          Christy Qiu*, Myka Salvacion, Akshay Sharma*, Joochan Shin*, Aarushi Singh*, Lindsay Smith*,
+          Christy Qiu*, Mykaela Salvacion, Akshay Sharma*, Joochan Shin*, Aarushi Singh*, Lindsay Smith*,
           Arushi Srivastava*, Sonia Tam, Homer Wang,
-          Shelly Wu*, Wendy Wu*, Maggie Yu*, Andrew Zhang*, David Zhang*, Helena Zhang*, Alexander Zheng, Karen Zheng*, Kevin Zhou
+          Shelly Wu*, Wendy Wu*, Maggie Yu*, Andrew Zhang*, David Zhang*, Helena Zhang*, Yanjie Zhang, Alexander Zheng, Karen Zheng*, Kevin Zhou
 
           <br />
           <br />
 
-          *Founding member of Penn Creative Labs (the previous name of Spark)
+          *Former member of Penn Creative Labs (the previous name of Spark)
 
           <br />
           <br />
           
-          If you are an alum and would like to be added to this page, please contact us at <a href="mailto:upennspark@gmail.com">upennspark@gmail.com</a>.
+          If you are a former member and would like to be added to this page, please contact us at <a href="mailto:upennspark@gmail.com">upennspark@gmail.com</a>.
           </p>
       </div>
     </Layout>
